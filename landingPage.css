@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 body {
   text-align: center;
-  background-image: url("assist/landing_image/landing\ pic.jpg");
+  background-image: url("assists/landing_image/landing\ pic.jpg");
   background-size: cover;
   background-attachment: fixed;
   display: grid;
@@ -11,9 +11,6 @@ a {
   text-decoration: none;
   color: #eff1f3;
 }
-/* a:visited{
-    color: green;
-} */
 a:link {
   color: #eff1f3;
 }
