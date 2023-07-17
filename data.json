@@ -1,0 +1,71 @@
+{
+    "cities": [
+      {
+        "name": "Islamabad",
+        "description": "Islamabad, the capital city of Pakistan, is known for its beautiful natural landscapes and modern architecture. The city is nestled against the backdrop of the Margalla Hills, offering breathtaking views. Visitors can explore landmarks such as the Faisal Mosque, Pakistan Monument, and Rawal Lake. Islamabad is also home to a variety of international and local cuisine, with average meal prices ranging from $5 to $15 per person.",
+        "average_price": "$60",
+        "currency": "PKR"
+      },
+      {
+        "name": "Lahore",
+        "description": "Lahore, the cultural hub of Pakistan, is renowned for its historical sites, vibrant bazaars, and delicious food. The city is home to architectural wonders like the Badshahi Mosque, Lahore Fort, and Shalimar Gardens. Food lovers can explore the famous food street in Gawalmandi, offering a variety of local delicacies. The average price of a mid-range hotel in Lahore is approximately $80 per night.",
+        "average_price": "$80",
+        "currency": "PKR"
+      },
+      {
+        "name": "Karachi",
+        "description": "Karachi, the largest city in Pakistan, is a bustling metropolis with a rich blend of cultural diversity. The city boasts beautiful beaches, historical landmarks such as Mohatta Palace and Frere Hall, and vibrant markets like Empress Market and Tariq Road. Visitors can indulge in delicious street food and experience the vibrant nightlife. The average price of a one-way ticket for public transportation in Karachi is approximately $0.30.",
+        "average_price": "$70",
+        "currency": "PKR"
+      },
+      {
+        "name": "Peshawar",
+        "description": "Peshawar, the gateway to the Khyber Pass, offers a glimpse into the rich history and vibrant Pashtun culture of the region. The city is known for its ancient bazaars, such as Qissa Khwani Bazaar and Namak Mandi, offering traditional handicrafts and delectable cuisine. Visitors can explore landmarks like the Peshawar Museum and Bala Hissar Fort. The average price of a taxi ride within the city of Peshawar is approximately $3.",
+        "average_price": "$50",
+        "currency": "PKR"
+      },
+      {
+        "name": "Multan",
+        "description": "Multan, also known as the 'City of Saints,' is located in the province of Punjab. The city is famous for its rich cultural heritage, including its historic shrines and ancient forts. Visitors can explore the renowned shrines of Bahauddin Zakariya and Shah Rukn-e-Alam, which attract devotees from all over the world. Multan is also known for its colorful bazaars offering handicrafts and traditional items. The average price of a budget hotel in Multan is approximately $40 per night.",
+        "average_price": "$40",
+        "currency": "PKR"
+      },
+      {
+        "name": "Gilgit",
+        "description": "Gilgit, located in the picturesque Gilgit-Baltistan region, is a paradise for nature lovers and adventure enthusiasts. The city is surrounded by majestic mountains, including the Karakoram and Himalayan ranges. Visitors can enjoy activities such as trekking, mountaineering, and exploring the mesmerizing valleys of Hunza and Skardu. The average price of a budget guesthouse in Gilgit is approximately $30 per night.",
+        "average_price": "$30",
+        "currency": "PKR"
+      },
+      {
+        "name": "Quetta",
+        "description": "Quetta, the capital of Balochistan province, is known for its scenic beauty and pleasant weather. The city offers attractions such as Hanna Lake, Urak Valley, and the beautiful Hazarganji Chiltan National Park. Quetta is also famous for its traditional bazaars, offering Balochi handicrafts and local spices. The average price of a one-way bus ticket for local transportation in Quetta is approximately $0.20.",
+        "average_price": "$45",
+        "currency": "PKR"
+      },
+      {
+        "name": "Swat",
+        "description": "Swat, often referred to as the 'Switzerland of Pakistan,' is a breathtaking valley in the Khyber Pakhtunkhwa province. The region is famous for its lush green meadows, sparkling waterfalls, and picturesque landscapes. Visitors can explore attractions like the Kalam Valley, Mahodand Lake, and Malam Jabba Ski Resort. Swat offers a range of accommodation options, with average prices for a mid-range hotel starting from $60 per night.",
+        "average_price": "$60",
+        "currency": "PKR"
+      },
+      {
+        "name": "Murree",
+        "description": "Murree, located in the Pir Panjal Range, is a popular hill station and summer retreat for tourists. The city offers pleasant weather, scenic views, and attractions like Patriata Cable Car, Mall Road, and Kashmir Point. Visitors can enjoy outdoor activities like hiking and horse riding. Murree has a range of accommodation options, with average prices for a budget hotel starting from $50 per night.",
+        "average_price": "$50",
+        "currency": "PKR"
+      },
+      {
+        "name": "Faisalabad",
+        "description": "Faisalabad, known as the 'Manchester of Pakistan,' is an industrial city in Punjab. The city is famous for its textile industry and offers a glimpse into Pakistan's manufacturing sector. Visitors can explore landmarks like the Clock Tower, Faisalabad Clock Tower Museum, and Chenab Club. Faisalabad also has a variety of shopping malls and markets offering textiles and garments. The average price of a mid-range hotel in Faisalabad is approximately $60 per night.",
+        "average_price": "$60",
+        "currency": "PKR"
+      },
+      {
+        "name": "Hyderabad",
+        "description": "Hyderabad, located in the Sindh province, is a city steeped in history and culture. The city is known for its architectural gems like the famous Mian Ghulam Nabi Kalhoro Tomb, Pacco Qillo Fort, and Rani Bagh. Visitors can also explore the bustling markets of Saddar and the iconic Shahi Bazaar. Hyderabad is renowned for its traditional Sindhi cuisine, offering a variety of delicious dishes. The average price of a one-way ticket for local transportation in Hyderabad is approximately $0.20.",
+        "average_price": "$50",
+        "currency": "PKR"
+      }
+    ]
+  }
+  
