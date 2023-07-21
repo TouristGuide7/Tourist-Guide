@@ -393,3 +393,61 @@ header {
     gap: 20px;
   }
 }
+@import url("https://fonts.googleapis.com/css?family=Lato:700");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.page {
+  height: 100vh;
+  overflow: auto;
+}
+.text {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 3rem;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  .text {
+    font-size: 5rem;
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:700");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.page {
+  height: 100vh;
+  overflow: auto;
+}
+.text {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-size: 3rem;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  .text {
+    font-size: 5rem;
+  }
+}
