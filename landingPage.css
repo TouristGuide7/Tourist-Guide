@@ -4,8 +4,11 @@ body {
   background-image: url("assists/landing_image/landing\ pic.jpg");
   background-size: cover;
   background-attachment: fixed;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
 }
 a {
   text-decoration: none;
@@ -15,32 +18,103 @@ a:link {
   color: #eff1f3;
 }
 button {
-  width: 300px;
+  width: 100%;
   background-color: #151515;
   border: none;
   font-size: 24px;
   padding: 16px;
-  border-radius: 16px;
+  border-radius: 12px;
 }
 .title {
   text-transform: capitalize;
   font-weight: bold;
   color: #f58d06;
-  font-size: 48px;
+  font-size: 64px;
   font-family: "Berkshire Swash", cursive;
 }
+.input-field{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+}
 .landContainer {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 450px;
   gap: 16px;
 }
-select {
-  width: 300px;
+input::placeholder {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  text-align: start;
+}
+
+select{
+  width: 100%;
   padding: 20px 8px;
   font-size: 16px;
   font-weight: bold;
   border: none;
-  border-radius: 16px;
-  
+  border-radius: 12px;
+}
+
+input {
+  width: 94.5%;
+  padding: 20px 8px;
+  font-size: 12px;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+}
+@media (max-width: 600px) {
+  .landContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    gap: 16px;
+  }
+  input::placeholder {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+  }
+  .title {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #f58d06;
+    font-size: 48px;
+    font-family: "Berkshire Swash", cursive;
+  }
+}
+@media (max-width: 900px) {
+  .landContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    gap: 16px;
+  }
+  input::placeholder {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: start;
+  }
+  .title {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #f58d06;
+    font-size: 55px;
+    font-family: "Berkshire Swash", cursive;
+  }
 }
 

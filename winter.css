@@ -16,7 +16,18 @@ header {
   background-size: cover;
   height: 60rem;
   color: #ffffff;
-  box-shadow: 0px 12px 83px 25px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0px 2px 80px 0px #00000067;
+}
+header .item1{
+  text-align: center;
+}
+.main{
+  font-size: 110px;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+}
+.user{
+  text-transform: capitalize;
 }
 .head {
   display: flex;
@@ -31,16 +42,35 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 8rem;
+  margin: 8rem 0;
+  border: 1px solid;
+  height: 12rem;
 }
-.main {
-  font-size: 160px;
+.headitem {
+  font-size: 80px;
   text-transform: uppercase;
-  font-family: "staatliches", cursive;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
+  color: #ffffff;
 }
-.item1 {
+.img1{
+  z-index: 0;
+  width: 100%;
+  position: relative;
+  height: 51.6rem;
+}
+.img2{
+  z-index: 2;
+  width: 100%;
+  position: relative;
+  top: -962px;
+
+}
+.headText {
+  position: relative;
   text-align: center;
+  z-index: 1;
+  top: -500px;
 }
 .item1 button {
   text-align: center;
@@ -244,10 +274,20 @@ header {
   margin: 16px 0px;
 }
 .feedback {
+  background: url(assists/landing_image/landing\ pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 8rem 16px;
+  margin: 8rem 0px 0 0;
+  padding: 12rem 16px;
+  box-shadow: inset 0px -105px 50px 0px white;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
 }
 .travel {
   font-size: 89px;
@@ -391,63 +431,5 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-}
-@import url("https://fonts.googleapis.com/css?family=Lato:700");
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-.page {
-  height: 100vh;
-  overflow: auto;
-}
-.text {
-  align-items: center;
-  color: #fff;
-  display: flex;
-  font-size: 3rem;
-  height: 100vh;
-  justify-content: center;
-  text-align: center;
-  width: 100vw;
-}
-@media (min-width: 768px) {
-  .text {
-    font-size: 5rem;
-  }
-}
-
-
-@import url("https://fonts.googleapis.com/css?family=Lato:700");
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-.page {
-  height: 100vh;
-  overflow: auto;
-}
-.text {
-  align-items: center;
-  color: #fff;
-  display: flex;
-  font-size: 3rem;
-  height: 100vh;
-  justify-content: center;
-  text-align: center;
-  width: 100vw;
-}
-@media (min-width: 768px) {
-  .text {
-    font-size: 5rem;
   }
 }

@@ -19,9 +19,10 @@
     <div
       class="landContainer animate__animated animate__fadeInBottomRight animate__delay-1s"
     >
-    <input type="text" placeholder="Enter Your Name" id="getName">
-    <input type="text" placeholder="Enter Your Are Now" id="getCity">
-    <button id="checks">cge</button>
+    <div class="input-field">
+      <input type="text" placeholder="Enter Your Name" id="getName">
+    <input type="text" placeholder="Enter Your Location" id="getCity">
+    </div>
       <select name="seasons" id="seasons">
         <option value="Summer" id="Summer">Summer</option>
         <option value="Winter" id="Winter">Winter</option>
@@ -32,6 +33,27 @@
         <a id="btnlink" href="#">Click Here</a>
       </button>
     </div>
-    <script src="script.js"></script>
+    <script>
+      const seasons = document.querySelector("#seasons");
+const btn = document.getElementById("submit").addEventListener("click", () => {
+  const seasonsElement = seasons.value;
+  if (seasonsElement === "Summer") {
+    document.getElementById("btnlink").href = "Tourist_Summer.html";
+  } else if (seasonsElement === "Winter") {
+    document.getElementById("btnlink").href = "Tourist_Winter.html";
+  } else if (seasonsElement === "Autumn") {
+    document.getElementById("btnlink").href = "Tourist_Automn.html";
+  } else {
+    document.getElementById("btnlink").href = "Tourist_Spring.html";
+  }
+      const gN = document.getElementById("getName")
+      const cN = document.getElementById("getCity")
+      localStorage.setItem("userName", gN.value)
+      localStorage.setItem("cityName", cN.value)
+  let getName = localStorage.getItem("userName")
+      let getCity = localStorage.getItem("cityName")
+
+});
+    </script>
   </body>
 </html>
