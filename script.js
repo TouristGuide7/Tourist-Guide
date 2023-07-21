@@ -10,6 +10,16 @@ function user(){
 user()
 
 
+const touristAPI = "data.json"
+async function newFunction(){
+  const response = await fetch(touristAPI)
+  const data = await response.json()
+
+  console.log(data);
+}
+
+newFunction()
+
 
 
 
