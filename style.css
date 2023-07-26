@@ -1,9 +1,99 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins@1&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins@1&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+ margin-bottom: 6rem;
+}
+.ul a {
+  display: none;
+}
+.topText{
+  display: flex;
+  flex-direction: column;
+  margin: 26px; 
+   line-height: 45px;
+}
+.topText-D{
+  font-size: 70px;
+  font-family: 'Poppins';
+  color: #000000;
+}
+.topText-p{
+  font-size: 20px;
+  color: grey;
+  font-family: 'Roboto';
+}
+.cityCardMain {
+  display: grid;
+  grid-template-rows: repeat(3, 800px);
+  grid-template-columns: repeat(4, auto);
+  margin: 6rem 26px;
+  gap: 16px;
+}
+.cardItem {
+  padding: 29rem 16px 16px 16px;
+  border-radius: 24px;
+  font-size: 18px;
+  background: url(assists/winterPic/sawat.jpg);
+  background-size: cover;
+  transition: all 0.3s ease;
+  box-shadow: 0px -80px 150px 1px rgba(0, 0, 0, 5) inset;
 
+}
+.cardItem:hover {
+  transform: translateY(-20px);
+}
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 13rem;
+}
+.cardText a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.localCity {
+  font-size: 38px;
+  font-family: "Poppins";
+}
+.feedback {
+  background: url(assists/landing_image/landing\ pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 8rem 0px 0 0;
+  padding: 12rem 16px;
+  box-shadow: inset 0px -105px 50px 0px white;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.travel {
+  font-size: 89px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  margin: 0;
+}
+.touch {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
 .page {
   background-color: white;
 }
-
 .page-heading {
   font-size: 100px;
   font-family: "Poppins", sans-serif;
@@ -112,6 +202,57 @@
     content: "✔";
     color: green;
 }
+.text{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.travel {
+  font-size: 89px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  margin: 0;
+}
+.touch {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.submit {
+  display: inline-block;
+  position: relative;
+}
+.submit input[type="text"] {
+  width: 600px;
+  height: 80px;
+  padding: 16px;
+  border: none;
+  border-radius: 40px;
+  font-size: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit button[type="submit"] {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 22px 40px;
+  font-size: 24px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.9s ease;
+}
+
+.submit button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
 @media (max-width:900px) {
     .gallery{
         display: grid;
@@ -123,6 +264,44 @@
         height: 250px;
         border-radius: 16px;
     }   
+    .feedback{
+      display: flex;
+      flex-direction: column;
+    }
+    .submit {
+      display: flex;
+      flex-direction: column;
+    }
+    .email[type="text"] {
+      width: 600px;
+      height: 80px;
+      padding: 16px;
+      border: none;
+      border-radius: 40px;
+      font-size: 24px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .submit button[type="submit"] {
+      background-color: #4e99e9;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 22px 40px;
+      font-size: 24px;
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 0;
+      right: 0;
+      transition: 0.9s ease;
+    }
+  
+    .submit button[type="submit"]:hover {
+      transform: scale(1.1);
+      color: rgb(255, 255, 255);
+      background-color: blue;
+    }
 }
 @media (max-width:600px) {
     .gallery{
@@ -135,4 +314,38 @@
         height: 250px;
         border-radius: 16px;
     }   
+    .feedback {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .travel {
+      font-size: 45px;
+    }
+    .touch {
+      font-size: 14px;
+    }
+    .submit button[type="submit"] {
+      background-color: #4e99e9;
+      font-size: 24px;
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: 0.9s ease;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 16px 40px;
+    }
+    .email[type="text"] {
+      padding: 16px;
+      border: none;
+      border-radius: 40px;
+      font-size: 24px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .submit {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
 }
