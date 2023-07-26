@@ -38,7 +38,7 @@ button {
   gap: 8px;
 
 }
-.landContainer {
+.landContainer , form{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -72,7 +72,7 @@ input {
   border-radius: 12px;
 }
 @media (max-width: 600px) {
-  .landContainer {
+  .landContainer , form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -95,7 +95,7 @@ input {
   }
 }
 @media (max-width: 900px) {
-  .landContainer {
+  .landContainer , form{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
