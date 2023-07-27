@@ -19,59 +19,77 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+      header {
+        background: url(assists/faizan-rao-0HBPgLeEiFA-unsplash.jpg);
+        background-size: cover;
+        height: 40rem;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg fs-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="Tourist_Winter.html">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ul me-auto mb-2 mb-lg-0">
-            </ul>
-            <div class="d-flex" role="search">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="Tourist_Winter.html"
-                    >Explore</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="travelWinter.html">Travel</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="contactUs.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link user active" id="userName"
-                    ><i class="fa-solid fa-user me-2"></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link user active" id="userCity"
-                    ><i class="fa-solid fa-city me-2"></i
-                  ></a>
-                </li>
-              </ul>
+    <div class="main-container">
+      <header>
+        <nav
+          class="navbar navbar-expand-lg fs-5 sticky-top bg-white bg-opacity-25"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="Tourist_Winter.html">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ul me-auto mb-2 mb-lg-0"></ul>
+              <div class="d-flex" role="search">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      aria-current="page"
+                      href="Tourist_Winter.html"
+                      >Explore</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="travelWinter.html">Travel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contactUs.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link user active" id="userName"
+                      ><i class="fa-solid fa-user me-2"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link user active" id="userCity"
+                      ><i class="fa-solid fa-city me-2"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
+        </nav>
+        <p class="contact">Destinations</p>
+      </header>
+      <div class="mainCardContent">
+        <div class="textContent">
+          <p class="cardContent">Lorem ipsum dolor sit amet .</p>
+        <p class="cardContentS">Mollitia adipisci dolor aspernaturconsectetur, adipisicing elit</p>
         </div>
-      </nav>
-    </header>
-      <div class="topText">
-        <p class="topText-D">Destinations</p>
-        <p class="topText-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum eveniet quis!</p>
-      </div>
       <div class="cityCardMain">
         <div class="cardItem">
           <div class="cardText">
@@ -134,16 +152,18 @@
           </div>
         </div>
       </div>
-      <div class="feedback">
-        <div class="text">
-          <p class="touch">Keep in touch</p>
-          <p class="travel">travel with us</p>
-        </div>
-        <div class="submit">
-          <input class="email" placeholder="Email Address" type="text" />
-          <button type="submit">Submit</button>
-        </div>
+    </div>
+    </div>
+    <div class="feedback">
+      <div class="text">
+        <p class="touch">Keep in touch</p>
+        <p class="travel">travel with us</p>
       </div>
+      <div class="submit">
+        <input class="email" placeholder="Email Address" type="text" />
+        <button type="submit" class="button1">Submit</button>
+      </div>
+    </div>
     <footer class="text-center text-lg-start bg-white text-muted">
       <section class="">
         <div class="container text-center text-md-start mt-5">

@@ -1,39 +1,71 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins@1&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
-*{
+* {
   margin: 0;
   padding: 0;
 }
 header {
- margin-bottom: 6rem;
+ margin-bottom: 8rem;
+  color: white;
+}
+.contact {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 160px;
+  text-transform: uppercase;
+  font-family: "Poppins";
 }
 .ul a {
   display: none;
 }
-.topText{
+.topText {
   display: flex;
   flex-direction: column;
-  margin: 26px; 
-   line-height: 45px;
+  margin: 26px;
+  line-height: 45px;
 }
-.topText-D{
+.topText-D {
   font-size: 70px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #000000;
 }
-.topText-p{
+.topText-p {
   font-size: 20px;
   color: grey;
-  font-family: 'Roboto';
+  font-family: "Roboto";
+}
+.mainCardContent{
+  background-color: #ffffff;
+  margin: 0rem 16px;
+  padding: 16px;
+  position: relative;
+  margin-top: -26rem;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 0px;
+  z-index: 1;
+}
+.textContent{
+  padding: 16px 0;
+}
+.cardContent{
+  font-size: 36px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.cardContentS{
+  font-size: 26px;
+  font-family: "Roboto";
+  color: grey;
+  margin: -16px 0 16px 0;
 }
 .cityCardMain {
   display: grid;
   grid-template-rows: repeat(3, 800px);
   grid-template-columns: repeat(4, auto);
-  margin: 6rem 26px;
-  gap: 16px;
+  gap: 30px 16px;
 }
 .cardItem {
   padding: 29rem 16px 16px 16px;
@@ -43,7 +75,6 @@ header {
   background-size: cover;
   transition: all 0.3s ease;
   box-shadow: 0px -80px 150px 1px rgba(0, 0, 0, 5) inset;
-
 }
 .cardItem:hover {
   transform: translateY(-20px);
@@ -55,7 +86,7 @@ header {
   color: #ffffff;
   margin-top: 13rem;
 }
-.cardText a{
+.cardText a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -74,7 +105,7 @@ header {
   padding: 12rem 16px;
   box-shadow: inset 0px -105px 50px 0px white;
 }
-.text{
+.text {
   display: flex;
   flex-direction: column;
   color: #ffffff;
@@ -149,60 +180,59 @@ header {
   box-sizing: 30px;
   border-radius: 10px;
 }
-.city-details{
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    margin: 30px;
-
+.city-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 30px;
 }
-.days{
-    background-color:#00b9f3;
-    padding: 12px 16px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 18px;
-    border-radius: 8px;
-    font-weight: normal;
-    margin-right: 20px;
+.days {
+  background-color: #00b9f3;
+  padding: 12px 16px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: normal;
+  margin-right: 20px;
 }
-.days2{
-    color: #2bb809;;
-    font-size: 24px;
-    margin-right: 20px;
+.days2 {
+  color: #2bb809;
+  font-size: 24px;
+  margin-right: 20px;
 }
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(2,auto);
-    gap: 8px;
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 8px;
 }
-.galleryPic img{
-    height: 250px;
-    border-radius: 16px;
+.galleryPic img {
+  height: 250px;
+  border-radius: 16px;
 }
-.day1{
-    font-size: 20px;
-    color: gray;
+.day1 {
+  font-size: 20px;
+  color: gray;
 }
-.boxDetail{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-bottom: 1px solid gray;
+.boxDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
 }
-.boxContent{
-    font-size: 18px;
-    padding: 26px 0;
+.boxContent {
+  font-size: 18px;
+  padding: 26px 0;
 }
-.boxContent li::marker{
-    content: "✔";
-    color: green;
+.boxContent li::marker {
+  content: "✔";
+  color: green;
 }
-.text{
+.text {
   display: flex;
   flex-direction: column;
   color: #ffffff;
@@ -219,133 +249,105 @@ header {
   font-family: "Poppins";
   text-transform: uppercase;
 }
-.submit {
-  display: inline-block;
-  position: relative;
+.email {
+  width: 400px;
+  padding: 22px;
+  font-size: 20px;
+  color: black;
+  border: 2px solid #fff;
+  margin-right: -10px;
+  border-radius: 40px 0 0 40px;
 }
-.submit input[type="text"] {
-  width: 600px;
-  height: 80px;
-  padding: 16px;
+.button1 {
   border: none;
-  border-radius: 40px;
-  font-size: 24px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.submit button[type="submit"] {
-  background-color: #4e99e9;
-  border: none;
+  background-color: #00b9f3;
+  text-decoration: none;
+  padding: 24px 44px;
+  font-size: 20px;
   color: #fff;
+  border-radius: 0 40px 40px 0;
   cursor: pointer;
-  padding: 22px 40px;
-  font-size: 24px;
-  border-radius: 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  top: 0;
-  right: 0;
-  transition: 0.9s ease;
 }
-
-.submit button[type="submit"]:hover {
-  transform: scale(1.1);
-  color: rgb(255, 255, 255);
-  background-color: blue;
+@media (max-width: 900px) {
+  .cityCardMain {
+    grid-template-rows: repeat(4, 600px);
+    grid-template-columns: repeat(3, auto);
+  }
+  .localCity {
+    font-size: 28px;
+    font-family: "Poppins";
+  }
+  .cardText {
+    margin-top: 2rem;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    gap: 8px;
+  }
+  .galleryPic img {
+    height: 250px;
+    border-radius: 16px;
+  }
+  .feedback {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact {
+    margin-top: 3rem;
+    font-size: 83px;
+  }
 }
-@media (max-width:900px) {
-    .gallery{
-        display: grid;
-        grid-template-columns: repeat(2,auto);
-        grid-template-rows: repeat(3,auto);
-        gap: 8px;
-    }
-    .galleryPic img{
-        height: 250px;
-        border-radius: 16px;
-    }   
-    .feedback{
-      display: flex;
-      flex-direction: column;
-    }
-    .submit {
-      display: flex;
-      flex-direction: column;
-    }
-    .email[type="text"] {
-      width: 600px;
-      height: 80px;
-      padding: 16px;
-      border: none;
-      border-radius: 40px;
-      font-size: 24px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-  
-    .submit button[type="submit"] {
-      background-color: #4e99e9;
-      border: none;
-      color: #fff;
-      cursor: pointer;
-      padding: 22px 40px;
-      font-size: 24px;
-      border-radius: 50px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      position: absolute;
-      top: 0;
-      right: 0;
-      transition: 0.9s ease;
-    }
-  
-    .submit button[type="submit"]:hover {
-      transform: scale(1.1);
-      color: rgb(255, 255, 255);
-      background-color: blue;
-    }
-}
-@media (max-width:600px) {
-    .gallery{
-        display: grid;
-        grid-template-columns: repeat(1,auto);
-        grid-template-rows: repeat(auto,auto);
-        gap: 8px;
-    }
-    .galleryPic img{
-        height: 250px;
-        border-radius: 16px;
-    }   
-    .feedback {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .travel {
-      font-size: 45px;
-    }
-    .touch {
-      font-size: 14px;
-    }
-    .submit button[type="submit"] {
-      background-color: #4e99e9;
-      font-size: 24px;
-      border-radius: 50px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      transition: 0.9s ease;
-      border: none;
-      color: #fff;
-      cursor: pointer;
-      padding: 16px 40px;
-    }
-    .email[type="text"] {
-      padding: 16px;
-      border: none;
-      border-radius: 40px;
-      font-size: 24px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .submit {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
+@media (max-width: 600px) {
+  .contact {
+    margin-top: 6rem;
+    font-size: 48px;
+  }
+  .cityCardMain {
+    grid-template-rows: repeat(0, 300px);
+    grid-template-columns: repeat(1, auto);
+  }
+  .localCity {
+    font-size: 28px;
+    font-family: "Poppins";
+  }
+  .cardText {
+    margin-top: 2rem;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(auto, auto);
+    gap: 8px;
+  }
+  .galleryPic img {
+    height: 250px;
+    border-radius: 16px;
+  }
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .travel {
+    font-size: 45px;
+  }
+  .touch {
+    font-size: 14px;
+  }
+  .email {
+    width: 350px;
+    padding: 16px;
+    font-size: 16px;
+    margin-right: 0px;
+    border-radius: 24px;
+  }
+  .button1 {
+    width: 350px;
+    margin-top: 8px;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 24px;
+  }
 }
