@@ -90,7 +90,7 @@ header {
   color: #ffffff;
   text-decoration: none;
 }
-.localCity {
+.mainCountry{
   font-size: 38px;
   font-family: "Poppins";
 }
@@ -273,7 +273,7 @@ header {
     grid-template-rows: repeat(4, 600px);
     grid-template-columns: repeat(3, auto);
   }
-  .localCity {
+  .mainCountry{
     font-size: 28px;
     font-family: "Poppins";
   }
@@ -308,7 +308,7 @@ header {
     grid-template-rows: repeat(0, 300px);
     grid-template-columns: repeat(1, auto);
   }
-  .localCity {
+  .mainCountry{
     font-size: 28px;
     font-family: "Poppins";
   }

@@ -12,6 +12,8 @@ const countryDiscription = document.querySelectorAll(".description")
 const country = document.querySelectorAll(".country1")
 const countryCulture = document.querySelectorAll(".culture")
 const famousCountry = document.querySelectorAll(".fCountry")
+const mainCountry = document.querySelectorAll(".mainCountry")
+console.log(mainCountry);
 
 
 const touristAPI = "data.json"
@@ -23,7 +25,11 @@ async function newFunction(){
     countryDiscription[i].innerHTML = data.world[i].smallDiscription
     country[i].innerHTML += data.world[i].country
     countryCulture[i].innerHTML += data.world[i].culture
-    famousCountry[i].innerHTML = data.famousPlace[i].place
+    famousCountry[i].innerHTML = data.famousPlace[i].mplace
+  }
+  for(let j = 0; j < mainCountry.length; j++){
+    mainCountry[j].innerHTML = data.world[j].place
+
   }
 }
 
