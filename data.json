@@ -2,6 +2,7 @@
   "world": [
     {
       "continent": "Europe",
+      "imgUrl":"https://www.travelandleisure.com/thmb/wAqGdol8_AsJJ40bKfjU_O3EHGk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-header-zermatt-switzerland-ZERMATT0123-08b7127082434b9f83db57251c051c1b.jpg",
       "country": "Switzerland",
       "place": "Zermatt",
       "culture": "Swiss",
@@ -10,6 +11,7 @@
     },
     {
       "continent": "Europe",
+      "imgUrl":"https://www.traveloffpath.com/wp-content/uploads/2022/07/Vienna-Aerial-View-735x732.jpg.webp",
       "country": "Austria",
       "place": "Vienna",
       "culture": "Austrian",
@@ -18,6 +20,7 @@
     },
     {
       "continent": "North America",
+      "imgUrl":"https://cdn.britannica.com/71/94371-050-293AE931/Mountains-region-Ten-Peaks-Moraine-Lake-Alberta.jpg",
       "country": "Canada",
       "place": "Banff",
       "culture": "Canadian",
@@ -26,6 +29,7 @@
     },
     {
       "continent": "North America",
+      "imgUrl":"https://www.travelandleisure.com/thmb/EtfH7B-slzAasSqRW2uhJNWtwh0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/aspen-colorado-lead-ASPENTG0122-3bd432152d1f4758b1b89fd8a3a231cc.jpg",
       "country": "USA",
       "place": "Aspen",
       "culture": "American",
@@ -34,6 +38,7 @@
     },
     {
       "continent": "Asia",
+      "imgUrl":"https://www.jal.co.jp/hk/en/guide-to-japan/destinations/articles/hokkaido/best-parks-and-nature-attractions/_jcr_content/root/responsivegrid/sectioncontainer/image_1041888335.coreimg.jpeg/1653634915063.jpeg",
       "country": "Japan",
       "place": "Hokkaido",
       "culture": "Japanese",
@@ -42,6 +47,7 @@
     },
     {
       "continent": "Asia",
+      "imgUrl":"https://bluecrowmedia.com/cdn/shop/products/MansuHillGrandMonument_1946x.jpg?v=1599225906",
       "country": "South Korea",
       "place": "Pyongyang",
       "culture": "Korean",
@@ -50,6 +56,7 @@
     },
     {
       "continent": "Oceania",
+      "imgUrl":"https://res.cloudinary.com/simpleview/image/upload/v1687399198/clients/queenstownnz/Queenstown_Winter_Aerial_from_Bob_s_Peak_33c9a5c3-f4d1-4264-b1a7-ee4195064969.jpg",
       "country": "New Zealand",
       "place": "Queenstown",
       "culture": "Kiwi",
@@ -58,6 +65,7 @@
     },
     {
       "continent": "South America",
+      "imgUrl":"https://lp-cms-production.imgix.net/2019-06/GettyImages-178737180_super.jpg",
       "country": "Argentina",
       "place": "Bariloche",
       "culture": "Argentinian",
@@ -67,6 +75,7 @@
     {
       "continent": "Europe",
       "country": "Norway",
+      "imgUrl":"https://norwaytravelguide.imgix.net/192977/x/0/",
       "place": "Tromsø",
       "culture": "Norwegian",
       "smallDiscription": "Tromsø, located in northern Norway, is an ideal place for witnessing the Northern Lights during winter.",
@@ -76,6 +85,7 @@
       "continent": "Europe",
       "country": "Finland",
       "place": "Rovaniemi",
+      "imgUrl":"https://www.visitrovaniemi.fi/wp-content/uploads/Santa-Claus-Village-just-before-Christmas-Opening-Visit-Rovaniemi-Lapland-Finland-2.jpg",
       "culture": "Finnish",
       "smallDiscription": "Rovaniemi, the capital of Lapland in Finland, is the official home of Santa Claus. In winter, visitors can enjoy ",
       "description": "Rovaniemi, the capital of Lapland in Finland, is the official home of Santa Claus. In winter, visitors can enjoy sleigh rides, meet Santa at the Santa Claus Village, and witness the magical Northern Lights. Experience Finnish culture through sauna sessions and indulging in hearty Finnish cuisine."
@@ -83,6 +93,8 @@
     {
       "continent": "North America",
       "country": "USA",
+      "imgUrl":"https://cdn.jacksonholenet.com/images/content/1902_655_Jackson_Hole_Wyoming_Town_Square_lg.jpg",
+
       "place": "Jackson Hole",
       "culture": "American",
       "smallDiscription": "Jackson Hole, Wyoming, is a famous winter destination in the United States. It is renowned for its challenging ski ",
@@ -91,6 +103,7 @@
     {
       "continent": "Asia",
       "country": "China",
+      "imgUrl":"https://cdn.britannica.com/74/95674-050-B9540269/Ice-sculptures-display-ice-festival-province-Harbin.jpg",
       "place": "Harbin",
       "culture": "Chinese",
       "smallDiscription": "Harbin, located in northeastern China, is famous for its stunning Ice and Snow Festival held annually.",
@@ -99,28 +112,33 @@
   ],
   "famousPlace": [
     {
-      "mplace": "Machu Picchu",
+      "place": "Machu Picchu",
       "country": "Peru",
+      "imgUrl":"https://images.indianexpress.com/2023/06/Photo-1-1.jpg",
       "description": "Machu Picchu is an ancient Incan citadel located in the Andes Mountains of Peru. It is one of the most famous archaeological sites in the world and a UNESCO World Heritage Site. Explore the well-preserved ruins, witness breathtaking mountain views, and learn about the fascinating history and culture of the Inca civilization."
     },
     {
-      "mplace": "Iguazu Falls",
+      "place": "Iguazu Falls",
       "country": "Argentina and Brazil",
+      "imgUrl":"https://destinationlesstravel.com/wp-content/uploads/2022/10/Waterfalls-at-iguazu-Falls.jpg.webp",
       "description": "Iguazu Falls is a breathtaking natural wonder located on the border of Argentina and Brazil. Explore the network of over 270 waterfalls, walk along scenic trails, and take in the spectacular views of the falls and surrounding rainforest."
     },
     {
-      "mplace": "Santorini",
+      "place": "Santorini",
       "country": "Greece",
+      "imgUrl":"https://www.visitgreece.gr/files/merakos_05_santorini-oia_750x440.jpg",
       "description": "Santorini is a stunning island in the Aegean Sea known for its picturesque whitewashed buildings and blue-domed churches. Explore the charming villages perched on cliffs, enjoy the beautiful sunsets over the caldera, and indulge in the delicious Greek cuisine and local wines."
     },
     {
-      "mplace": "Kyoto",
+      "place": "Kyoto",
       "country": "Japan",
+      "imgUrl":"https://media.tacdn.com/media/attractions-content--1x-1/10/29/d5/01.jpg",
       "description": "Kyoto, the former capital of Japan, is a city steeped in tradition and culture. Explore historic temples, traditional tea houses, and beautiful gardens. Experience traditional Japanese arts such as tea ceremonies, calligraphy, and kimono-wearing."
     },
     {
-      "mplace": "Colosseum",
+      "place": "Colosseum",
       "country": "Italy",
+      "imgUrl":"https://th-thumbnailer.cdn-si-edu.com/QwNv3T5GpXcyglnYKJJvUiVk1vw=/1000x750/filters:no_upscale():focal(2183x1356:2184x1357)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/41/4f/414f4c9f-b197-4778-9dc6-2a0105cc2908/colosseum_in_rome-april_2007-1-_copie_2b.jpg",
       "description": "The Colosseum, located in Rome, Italy, is an ancient amphitheater and a marvel of Roman engineering. Explore this historic site, which once hosted gladiator contests and other spectacles. Learn about the rich history of the Roman Empire and its influence on Western civilization."
     }
   ]

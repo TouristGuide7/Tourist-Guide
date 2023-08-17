@@ -12,34 +12,42 @@ function user(){
   gCity.innerHTML += localCity
 }
 user()
+
+
 const travelCity = document.querySelectorAll(".localCity")
 const countryDiscription = document.querySelectorAll(".description")
-const country = document.querySelectorAll(".country1")
+const continent = document.querySelectorAll(".country1")
 const countryCulture = document.querySelectorAll(".culture")
+const countryImage = document.querySelectorAll(".countryImage")
+
+
+
 const famousCountry = document.querySelectorAll(".fCountry")
 const mainCountry = document.querySelectorAll(".mainCountry")
-const cardCountry = document.querySelectorAll(".Country")
-const cardDesc = document.querySelectorAll(".page-matter")
+const totalCardLength = document.querySelectorAll(".cardItem")
+
 
 
 const touristAPI = "data.json"
 async function newFunction(){
   const response = await fetch(touristAPI)
   const data = await response.json()
-  for(let i = 0 ; i < travelCity.length; i++){
+
+
+
+
+  for(let i = 0 ; i < totalCardLength.length; i++){
     travelCity[i].innerHTML = data.world[i].country
     countryDiscription[i].innerHTML = data.world[i].smallDiscription
-    country[i].innerHTML += data.world[i].country
-    countryCulture[i].innerHTML += data.world[i].culture
-    famousCountry[i].innerHTML = data.famousPlace[i].mplace
+    continent[i].innerHTML = data.world[i].continent
+    countryCulture[i].innerHTML += ": "+ data.world[i].culture
+    countryImage[i].src = data.world[i].imgUrl
   }
   for(let j = 0; j < mainCountry.length; j++){
     mainCountry[j].innerHTML = data.world[j].country
   }
-  for(let i = 0; i < cardCountry.length; i++){
-    cardCountry[i].innerHTML = data.world[i].country
-    cardDesc[i].innerHTML = data.world[i].description
-
+  for(let i= 0; i < famousCountry.length; i++){
+    famousCountry[i].innerHTML = data.famousPlace[i].place
   }
 }
 
