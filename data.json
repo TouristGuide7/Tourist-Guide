@@ -2,7 +2,6 @@
       "winter": [
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://www.travelandleisure.com/thmb/wAqGdol8_AsJJ40bKfjU_O3EHGk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-header-zermatt-switzerland-ZERMATT0123-08b7127082434b9f83db57251c051c1b.jpg",
           "country": "Switzerland",
           "place": "Zermatt",
@@ -12,7 +11,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://www.traveloffpath.com/wp-content/uploads/2022/07/Vienna-Aerial-View-735x732.jpg.webp",
           "country": "Austria",
           "place": "Vienna",
@@ -22,7 +20,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://cdn.britannica.com/71/94371-050-293AE931/Mountains-region-Ten-Peaks-Moraine-Lake-Alberta.jpg",
           "country": "Canada",
           "place": "Banff",
@@ -32,8 +29,7 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
-          "imgUrl": "https://images.unsplash.com/photo-1471306224500-6d0d218be372?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "imgUrl": "https://www.travelandleisure.com/thmb/EtfH7B-slzAasSqRW2uhJNWtwh0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/aspen-colorado-lead-ASPENTG0122-3bd432152d1f4758b1b89fd8a3a231cc.jpg",
           "country": "USA",
           "place": "Aspen",
           "culture": "American",
@@ -42,7 +38,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://www.jal.co.jp/hk/en/guide-to-japan/destinations/articles/hokkaido/best-parks-and-nature-attractions/_jcr_content/root/responsivegrid/sectioncontainer/image_1041888335.coreimg.jpeg/1653634915063.jpeg",
           "country": "Japan",
           "place": "Hokkaido",
@@ -52,7 +47,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://bluecrowmedia.com/cdn/shop/products/MansuHillGrandMonument_1946x.jpg?v=1599225906",
           "country": "South Korea",
           "place": "Pyongyang",
@@ -62,7 +56,6 @@
         },
         {
           "continent": "Oceania",
-          "mainImgurl":"",
           "imgUrl": "https://res.cloudinary.com/simpleview/image/upload/v1687399198/clients/queenstownnz/Queenstown_Winter_Aerial_from_Bob_s_Peak_33c9a5c3-f4d1-4264-b1a7-ee4195064969.jpg",
           "country": "New Zealand",
           "place": "Queenstown",
@@ -72,7 +65,6 @@
         },
         {
           "continent": "South America",
-          "mainImgurl":"",
           "imgUrl": "https://lp-cms-production.imgix.net/2019-06/GettyImages-178737180_super.jpg",
           "country": "Argentina",
           "place": "Bariloche",
@@ -82,9 +74,8 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "country": "Norway",
-          "imgUrl": "https://images.unsplash.com/photo-1475066392170-59d55d96fe51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "imgUrl": "https://norwaytravelguide.imgix.net/192977/x/0/",
           "place": "Tromsø",
           "culture": "Norwegian",
           "smallDiscription": "Tromsø, located in northern Norway, is an ideal place for witnessing the Northern Lights during winter.",
@@ -92,7 +83,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "country": "Finland",
           "place": "Rovaniemi",
           "imgUrl": "https://www.visitrovaniemi.fi/wp-content/uploads/Santa-Claus-Village-just-before-Christmas-Opening-Visit-Rovaniemi-Lapland-Finland-2.jpg",
@@ -102,7 +92,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "country": "USA",
           "imgUrl": "https://cdn.jacksonholenet.com/images/content/1902_655_Jackson_Hole_Wyoming_Town_Square_lg.jpg",
 
@@ -113,7 +102,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "country": "China",
           "imgUrl": "https://cdn.britannica.com/74/95674-050-B9540269/Ice-sculptures-display-ice-festival-province-Harbin.jpg",
           "place": "Harbin",
@@ -125,7 +113,6 @@
       "autumn": [
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80XHiHGCKfJLhDMKq_ni-D6TO1glAiVFB13TflUZpqHFpKRsKCgyxB6aS2ngUlOmd9WfS1M2t7vI-0s9JCmUKDIG0puvKRlgcioBs9SeMwuXBQSq-_oBjJ9cztWQ_mgHsdJpBkl1ucuGRpsLiqmP3AQ4So7JQch1wspiRf_Q5lR7J6hCu-4Lxn5oEbHKAp-QIAtqkhPqjMeIBPnoTThezX2VrAnlsoPTsZV4G4Lj4cK5ca304CdeYXyS-Gp5x_T3W8gMPx_rBihVXf1o2ivpZMK4oPpDM7KJTdJ4AcYdoxR1jA=w250-h200-p",
           "country": "France",
           "place": "Alsace",
@@ -135,7 +122,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80XHiHGCKfJLhDMKq_ni-D6TO1glAiVFB13TflUZpqHFpKRsKCgyxB6aS2ngUlOmd9WfS1M2t7vI-0s9JCmUKDIG0puvKRlgcioBs9SeMwuXBQSq-_oBjJ9cztWQ_mgHsdJpBkl1ucuGRpsLiqmP3AQ4So7JQch1wspiRf_Q5lR7J6hCu-4Lxn5oEbHKAp-QIAtqkhPqjMeIBPnoTThezX2VrAnlsoPTsZV4G4Lj4cK5ca304CdeYXyS-Gp5x_T3W8gMPx_rBihVXf1o2ivpZMK4oPpDM7KJTdJ4AcYdoxR1jA=w250-h200-p",
           "country": "Japan",
           "place": "Kawazu Cherry Blossom Park",
@@ -145,7 +131,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://www.travelandleisure.com/thmb/OiEemoNjpwQz_V80z09pxAuA34I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/03-catskill-mountains-new-york-FALLLEAFWATCH0917-8d043a0c1af544a18aff668db8fa8e6b.jpg",
           "country": "USA",
           "place": "The Catskills",
@@ -155,7 +140,6 @@
         },
         {
           "continent": "South America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80MX3qlgJuKCkdSUOc78GxeUXQ7fEVTl9rI8EP-TiC6Wq__ND6EKNXOEI3EfoLxKkcM1CT8AIa-FCmsIwwd5M35UjmN_mQ3S9uG6QNuSlfrQb39bDDeVMg8dNUxmNrusjxlG5nqyKMJp-Oq4Dw=w250-h200-p",
           "country": "Argentina",
           "place": "Mendoza",
@@ -165,7 +149,6 @@
         },
         {
           "continent": "Africa",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83N4sz2cmrvQbKo9pUupdEtFLwS6Qn3tvcTKtvbnZ1BQsHTAWEplnE0RZNgNGGJtzJKvzAHyxraslIyAVG1kHMpBokycy-PX3RfzwhbgFABFTlJLd7D1xXfLY1yu4_tfEuPu4RL7QkhSsax1doVbG-PQpL81Vg-QV_ksr578rpyASBmKUNiUvQ4kjcV68pM644c6uEmERg=w250-h200-p",
           "country": "South Africa",
           "place": "Kruger National Park",
@@ -175,7 +158,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81tVfhXZGRW9HhGhPt9byl19xW__Isd56hkRY_fYe3C7kW--nAuTdISgsf1dqugbvEpl2-oGQJS3DiM65h1SXJf9NR5d6GatPcoBfKbGykCj_Tfk2XKWR7VrKeTlNX9ekEfnvjIYi3huxqaypr8=w250-h200-p",
           "country": "Germany",
           "place": "Black Forest",
@@ -185,7 +167,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80i6G5hOq_bSQ7UrdoEyDgxXcphx7WzlY84Mtfoy5bFzf6xMuo1O3FbCYIrYEvIDM3IOKSMe0aOmOYuIqElAOws278f2piwyciskZevpRTc4MxVt8eHDYJNOHysKFOehcf9c_jc4szeeBaRozy3tU-vEIS32ZsiIojXFbgcBqcbIZEtl_FBMRo0Av4blFrY1xlWbfA=w250-h200-p",
           "country": "China",
           "place": "Zhangjiajie National Forest Park",
@@ -195,7 +176,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83TbGQbiYStQqzfezrhxh6AFQOAsen8n5n5RuJ55BFhg9i4-_5il50XKJe_4OW9kYD3tTEAGIYDKkmyTTfNH4uc4MOIj36nrTQ1O-5ceen8E9Yqvl_hy8HoEvUfldPoeP9z87nPyLNDxsAMg5ZLea6M5Ja4=w250-h200-p",
           "country": "USA",
           "place": "New England",
@@ -205,7 +185,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81qhLEHJSkVatljy50JQ4YCWy3ii6Tu8aGzQ6nEDzAb8YrSz8Qb7y6J7wkr6tyMSjBh6lsa7gzN_-cQj8_YcetMgERRAmyC6KdgGeIQcr7-xhr3FedcR9rp_6k4lTtViTS6rGPzAiXaxgsxihNeIYUC1aLAl4n7PyAMZzLLglX89Ec0jDwKFzngjPk2f1I=w250-h200-p",
           "country": "Scotland",
           "place": "Scottish Highlands",
@@ -215,7 +194,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81FTqBQE18h8w_lswB_Tq8ieVUjW8wymvYamhZUDxilRR3S8EKsjovNfT3hIdNzYMvB2acLzCL4uWDBTHiKvMiqn8ea_jSjMJCPc-qM-fU1BeAOZBeWJjIWOhvyigoqQ0l0elPsho-MGRQBezoJtLw3t4OyAQef7VQu9dA=w250-h200-p",
           "country": "South Korea",
           "place": "Naejangsan National Park",
@@ -225,7 +203,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://a.cdn-hotels.com/gdcs/production130/d1741/068635d0-6e54-4c1b-a06d-ce0dc56b4f03.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
           "country": "USA",
           "place": "Vermont",
@@ -235,7 +212,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://www.jrailpass.com/blog/wp-content/uploads/2016/05/arashiyama-bamboo-grove-kyoto-e1466611768221.jpg",
           "country": "Japan",
           "place": "Arashiyama Bamboo Grove",
@@ -247,7 +223,6 @@
       "spring": [
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://www.visa.mn/content/dam/VCOM/regional/ap/images/travel-with-visa/paris/marquee-travel-paris-800x450.jpg",
           "country": "France",
           "place": "Paris",
@@ -257,7 +232,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://media.tacdn.com/media/attractions-content--1x-1/10/29/d5/01.jpg",
           "country": "Japan",
           "place": "Kyoto",
@@ -267,7 +241,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://www.rd.com/wp-content/uploads/2020/07/GettyImages-975466384-e1595621246508.jpg",
           "country": "USA",
           "place": "Washington, D.C.",
@@ -277,7 +250,6 @@
         },
         {
           "continent": "South America",
-          "mainImgurl":"",
           "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/1200px-Cidade_Maravilhosa.jpg",
           "country": "Brazil",
           "place": "Rio de Janeiro",
@@ -287,7 +259,6 @@
         },
         {
           "continent": "Africa",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80UJdvtmc6jS7v8b4UC3YvYDzRNrfkEyfdA91XxiYhYkkjjBdCH2Bj3nE7UNWbIc6emCzQDbCU4uqSqCjb5qvEsQprONYzSZOGEmQ5AaVtCUNXeQjupRVKbMZzuLr5qRb3PcSvu9rYjcXrHwQQFOIDOoozFadzgaYeptU__gDDw53kV2IOPzFeq2A0=w250-h200-p",
           "country": "Morocco",
           "place": "Marrakech",
@@ -297,7 +268,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83JFq5RYX4nPHb_h-oQNUM6lXiqMPfgpYB0wUAShToITzdc5Z_9rKAaEJSOg8Qw82xRiwr_HQrZme2SOCvopmeAAiY-D9Sq1XbLCiPkN3cr85Ck4miP3k2_GSOh_Ta95hgaWfdNL95n9D-4PMRh75g=w250-h200-p",
           "country": "Netherlands",
           "place": "Keukenhof Gardens",
@@ -307,7 +277,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr825MVF1ZzdskwnZ5w2I080dVCUA6SZ1lpIr_1pzEmYCyTz9O5J1HOmc40HSS6QUATUQk-9FNLAwZFwFLazk2JZR9Y9yI0SbnlU_DFss1ssWxOa-NFDKw6RbdPTSqNdPNFCFo584dwOmp50N181J=w250-h200-p",
           "country": "Japan",
           "place": "Tokyo",
@@ -317,7 +286,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83T299MWNnaqlT59hqDYzSd__JXuXymfPzAFcUKDVAedSelyfXnpYuDJy5vyDgD7DJCJkt9bsQgxbsELi9eftzRvfReoDOs8YiQRGPDi6jJW3d3RbojOvU9eRhxC6jbAc-5hHp1ebtLaMFIQAYuFd45yekJeGJXWu6ycQI5U8ZDmXctZ8U=w250-h200-p",
           "country": "USA",
           "place": "Miami",
@@ -327,7 +295,6 @@
         },
         {
           "continent": "South America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr829UQje1soW250jyGJgKLl-YSkxI_PpjgTKSO1rnBZlU32cp2GNUyo-EkwnkPbpbjILuCacAwfnVIbZUrsmZ3lkKTfGjuC6dKtvf_PbeKm1DdMjLSo9I94b6UcUU8LQmRax679kizZNvjKrP-z85aPnl6DYZ3j3k4ViEloeOEovcByyAONcnzLKaA0Wt34ekwz6MAYR=w250-h200-p",
           "country": "Argentina",
           "place": "Buenos Aires",
@@ -337,7 +304,6 @@
         },
         {
           "continent": "Africa",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81WUXkiLGG7_gZ47DRjtyVdV56oGZqKvyz1SKHQ_TgKoddAKwrefahLcze_tIqQ93Hz5JaLTO6TM48qKYlfAfG3RnDVNPsEanDySVIClGX9bq3LMXO3QvaGJdQfaAcu0BIAfMfwCZr9t-w_pwvZ7bgw-XhCHdyY5ZLTSzTB4PlsdmyfY1LB-wuFgI9KROIl2JD-10Zwk2ZcvfnF8-QR6c3rwrdWdeyrouMMnM25_TawZM5RAskEruZK37yY8-OQjRtiVXBvkgqNs9yecVaBET4f7wA=w250-h200-p",
           "country": "South Africa",
           "place": "Cape Town",
@@ -347,7 +313,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81qvOMPEhr0h4wzaNPeloHxLyz-TN3FKSgHUI6X0FOo-ZqgFTTL-DRyfQnM9rHNsI2pnUow4LOzF_A7RFUUIkikWisJk-U5Q7e-L_3EsgYYePg3grvYN56bkAotqTJKVlQ2jHRGfacz0Z94xQCXzS4Rh5lPqU0EE_CdDycG=w250-h200-p",
           "country": "Czech Republic",
           "place": "Prague",
@@ -357,7 +322,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83JGcMOD_NuO_4RNeW_ffBMMAI5-KGkQ_w8T65SZ8druW6TTqjrTtRindkvbC90ZH6dS3bYDqUOvW3-0fEeoGmO7_IYKuA0_x5-L-PPzysKo_wTqV6ThrRznzm7S8NxDInOwPMJw8TsZFch34USwJEFewgIZDL--Yh5Zw=w250-h200-p",
           "country": "South Korea",
           "place": "Seoul",
@@ -369,7 +333,6 @@
       "summer": [
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81Rs9wRmbz5CPH96MGGLH0tKDX4aLpp4As8ix3VYIHhrjl3ORuiVthdLFxs-yOdeueVSXIOPDeVNfF_AFalOcSim470fbodyF-mJ7KKNWgQf-mTTQLhjHyCueI1qrGg=w250-h200-p",
           "country": "France",
           "place": "French Riviera",
@@ -379,7 +342,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83JyE4QmwaCJ_xx0acDLMjXOykZZxVW0S3kxHtah8SL0PEOY7hum5a0l46rsAgnxBGLndeWADGXUlZZly-CIcrWtenmbOuuVQJJd2sQEyZF2-pjJEb68GCr46SJnMc6Hia36jOHNJ7H=w250-h200-p",
           "country": "Indonesia",
           "place": "Bali",
@@ -389,7 +351,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83hmBp0DQtcoh_EgE_J0WepeGUuZpDg-RBk0YQp63f--meUkJL56BUQLUy0cba27UiqcwExyoE5ZDrTj-LJlBc0VMF_8mJPtFL3dlxOgS6eTEfq9BsbpKqUWyMsYB1d_XojHneC70EqmX09Ha1Tuzi-HErRPmhp=w250-h200-p",
           "country": "USA",
           "place": "Hawaii",
@@ -399,7 +360,6 @@
         },
         {
           "continent": "South America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81zOEOYOzlzBVaG8UAW5gR3i20rHWMuY1wn9IcBMP5JXkFfhlRrFwd4OtN_XnpwzujtXALGKdO-_bP9oZb0aI71I4IpeDSzfDb0R83ddVWhS2-XymU2GctbniKXm5VNoZeKMHkOPTSQ1iKA2512DNcQwMj5PbL7xPxhmJms2hDH__2WCCuV2-2_acgAI_ZK7z0=w250-h200-p",
           "country": "Brazil",
           "place": "Rio de Janeiro",
@@ -409,7 +369,6 @@
         },
         {
           "continent": "Africa",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80KDwuPMEehY3JyNoudY-eM1EXV55WL-sMPRfpIbukTBUa1_AmdpOHppr5SnS-TTYE9Fyxfn9PRcYLf2zZmhDY2gI5lKh6vhreb4Aus6i6OXD3NpiVA8oZ6Sfj2ckd4EEshJKJ_Ay5fLcfHQpAxAyezhjLEBV7YBqGTsfBe5zj6CimE=w250-h200-p",
           "country": "South Africa",
           "place": "Cape Town",
@@ -419,7 +378,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr806eRllfojTcCyC2PoH-ohtwucLfyHbPPKn8go4PDIfdLD5riA3RvUmSYA3CuRXLr1dOTzx42gg9gqc_GzlUOSbfVAjHjXXF5gLF9tkIy0Gta6Pga9SqBWyaftcHR3Rk35MCeJAz4hk3rNFeQxfhfR3du3Q-vZUq1MMHiA=w250-h200-p",
           "country": "Spain",
           "place": "Ibiza",
@@ -429,7 +387,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr82UWp5lvzuv-Eqlh0g13Tkgo1zwIDEceNcR3vWtiXjauagLEWsJycxrk_Awhxrts1DweY3qIx0K8YaUYYgkUwQZ12szmeA7V3L8C0GEQjwjLE_l5XkoWwpHbdf8SCzn6lrmRL15pOyhPbH9C3eCxg1q7wMMjA4Htwda78QHddfuoft4WTpI8I-gP4AzFG9Go86474KNYgrRbdG36WfDqVqIi-O54UDtPloIN09mOUH_=w250-h200-p",
           "country": "Thailand",
           "place": "Phuket",
@@ -439,7 +396,6 @@
         },
         {
           "continent": "North America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr831kPU09w_XtRI0SpxHsTY4XwtKmoPY4-phHT6sCaajIzANYGpceI2GvIjAfmNGm-mRbZbP0hiiv69Ku8mJqHeNSVvUCVlk_CWpQHzz0l4wuipcjWzcXESRwFxfA2pbn-rZ1uhm0Nwx7ojR3MO3DknFv9HjlD5dFpE1vX--LCIF9A=w250-h200-p",
           "country": "USA",
           "place": "Lake Tahoe",
@@ -449,7 +405,6 @@
         },
         {
           "continent": "South America",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr803vymHNdYztd1EaA0Xr5bJDSxAvAsn3Uq39AmFr1GbOiAJbcVYSx4ThywGW7sBUhgie7cMUzLynw7qDIDNKMupYwRC7tZQQ-V1mgiK2zAbBDtluWM=w250-h200-p",
           "country": "Brazil",
           "place": "Natal",
@@ -459,7 +414,6 @@
         },
         {
           "continent": "Africa",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83EetfAPawuA6ewKwLFCXjn1bNvwOI8TUo3AFLvImdUAisPQHewasODXRma9ezguUXgTFmWsIZjjvhm2nM0aAnaYtyqT33_n8VKrbaEUu7x2e8SzTtGUyF8-iJBIN3tJ3DUP7Lf2bjiLX-03DIroqBdNljD-V7Bv5bLxH3wycDdjpMrg49wgOFAlBk83mfqrOQGcvTHN9NWoX-oODUvg822POqxUia4txJIFT4mFCR52FIRpEg-iQbhRG_T=w250-h200-p",
           "country": "Kenya",
           "place": "Diani Beach",
@@ -469,7 +423,6 @@
         },
         {
           "continent": "Europe",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83EetfAPawuA6ewKwLFCXjn1bNvwOI8TUo3AFLvImdUAisPQHewasODXRma9ezguUXgTFmWsIZjjvhm2nM0aAnaYtyqT33_n8VKrbaEUu7x2e8SzTtGUyF8-iJBIN3tJ3DUP7Lf2bjiLX-03DIroqBdNljD-V7Bv5bLxH3wycDdjpMrg49wgOFAlBk83mfqrOQGcvTHN9NWoX-oODUvg822POqxUia4txJIFT4mFCR52FIRpEg-iQbhRG_T=w250-h200-p",
           "country": "United Kingdom",
           "place": "Cornwall",
@@ -479,7 +432,6 @@
         },
         {
           "continent": "Asia",
-          "mainImgurl":"",
           "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81SuXiPGgUKpEe5OE71hhj28XnGy0hE49aZ9MYAGp7nigfz3yyd689K8JxMMmnUF2k19094EkgG4JVuAwXOlTQHGxXIXRkny_h9P39ccXFrWkZmzC8rggDs5ONDMPX3iPAGXG9SjcG4KqjUIQS7tdrvezldvI1T52YqAsvVjb98q4HBpMj58AwW4H3OIF1fWSS9wjvBpWnCZGAnmqgN2ITJEdXKXfV8kURk1rgHmTgdvT8=w250-h200-p",
           "country": "Turkey",
           "place": "Antalya",
@@ -494,39 +446,28 @@
             "country": "France",
             "description": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris. It is one of the most recognizable structures in the world and a symbol of France.",
             "category": "Landmark",
-            "imgUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80"
+            "imgUrl": "https://www.toureiffel.paris/en"
           },
           {
             "name": "Great Wall of China",
             "country": "China",
             "description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China.",
             "category": "Historical Site",
-            "imgUrl": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            "imgUrl": "http://www.chinagreatwall.org/"
           },
           {
             "name": "Machu Picchu",
             "country": "Peru",
             "description": "Machu Picchu is an ancient Incan city located in the Andes Mountains. It's known for its well-preserved ruins, stunning architecture, and panoramic views.",
             "category": "Archaeological Site",
-            "imgUrl": "https://images.unsplash.com/photo-1541637593725-923467404d17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            "imgUrl": "https://www.machupicchu.gob.pe/"
           },
           {
             "name": "Pyramids of Giza",
             "country": "Egypt",
             "description": "The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt. The Great Pyramid is the largest and most famous of the pyramids and is one of the Seven Wonders of the Ancient World.",
             "category": "Archaeological Site",
-            "imgUrl": "https://images.unsplash.com/photo-1539768942893-daf53e448371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
-          }
-          ,
-          {
-            "continent": "Asia",
-            "mainImgurl":"",
-            "imgUrl": "https://images.unsplash.com/photo-1623621534850-d325a1980c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
-            "country": "Turkey",
-            "place": "Antalya",
-            "culture": "Turkish",
-            "smallDiscription": "Antalya, Turkey, offers a blend of history, beaches, and summer activities.",
-            "description": "Antalya, Turkey, offers a blend of history, beaches, and summer activities. Explore ancient ruins, relax on the beaches, and enjoy the vibrant local culture."
+            "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
           }
         ]
     }
