@@ -19,6 +19,7 @@ const countryDiscription = document.querySelectorAll(".description")
 const continent = document.querySelectorAll(".country1")
 const countryCulture = document.querySelectorAll(".culture")
 const countryImage = document.querySelectorAll(".countryImage")
+const cardImage = document.querySelectorAll(".winterImage")
 
 
 
