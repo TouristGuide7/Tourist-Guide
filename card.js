@@ -15,6 +15,7 @@ console.log(getPlaceValue);
 const countryDiscription = document.getElementById("description");
 const country = document.getElementById("country");
 const mainCardImage = document.getElementById("mainCardImg")
+const pageD = document.getElementById("page-d")
 
 const touristAPI = "data.json";
 async function newFunction() {
@@ -24,27 +25,32 @@ async function newFunction() {
     if(place == "winter"){
       countryDiscription.innerHTML = data.winter[num].description;
       country.innerHTML = data.winter[num].country;
-      mainCardImage.src = data.winter[num].imgUrl
+      pageD.innerHTML = data.winter[num].smallDiscription;
+      mainCardImage.src = data.winter[num].cardImg
     }
     else if (place == "summer"){
       countryDiscription.innerHTML = data.summer[num].description;
       country.innerHTML = data.summer[num].country;
-      mainCardImage.src = data.summer[num].imgUrl
+      pageD.innerHTML = data.summer[num].smallDiscription;
+      mainCardImage.src = data.summer[num].cardImg
     }
     else if (place == "spring"){
       countryDiscription.innerHTML = data.spring[num].description;
       country.innerHTML = data.spring[num].country;
-      mainCardImage.src = data.spring[num].imgUrl
+      pageD.innerHTML = data.spring[num].smallDiscription;
+      mainCardImage.src = data.spring[num].cardImg
     }
     else if (place == "autumn"){
       countryDiscription.innerHTML = data.autumn[num].description;
       country.innerHTML = data.autumn[num].country;
-      mainCardImage.src = data.autumn[num].imgUrl
+      pageD.innerHTML = data.autumn[num].smallDiscription;
+      mainCardImage.src = data.autumn[num].cardImg
     }
     else if (place == "famous_places"){
       countryDiscription.innerHTML = data.famous_places[num].description;
       country.innerHTML = data.famous_places[num].country;
-      mainCardImage.src = data.famous_places[num].imgUrl
+      pageD.innerHTML = data.famous_places[num].smallDiscription;
+      mainCardImage.src = data.famous_places[num].cardImg
     }
 
   }

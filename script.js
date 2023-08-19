@@ -24,6 +24,11 @@ const famousCountry = document.querySelectorAll(".fCountry")
 const famousCountryImg = document.querySelectorAll(".fImg")
 const mainCountry = document.querySelectorAll(".mainCountry")
 const totalCardLength = document.querySelectorAll(".cardItem")
+
+
+const winterCity = document.querySelectorAll(".winterCity")
+const winterCityCardLength = document.querySelectorAll(".cityCardMain")
+
 const touristAPI = "data.json"
 async function newFunction(){
   const response = await fetch(touristAPI)
@@ -39,6 +44,9 @@ async function newFunction(){
   }
   for(let i= 0; i < famousCountry.length; i++){
     famousCountry[i].innerHTML = data.famous_places[i].country
+  }
+  for(let i = 0 ; i < winterCityCardLength.length ; i ++){
+winterCity[i].innerHTML = data.winter[i].country
   }
 
 }

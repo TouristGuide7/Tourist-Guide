@@ -6,6 +6,7 @@
   padding: 0;
   user-select: none;
 }
+
 header {
   margin-bottom: 8rem;
   color: white;
@@ -26,7 +27,7 @@ header {
 .cardMainImg {
   width: 100%;
   height: 40rem;
-  margin-top: -4rem;
+  margin-top: -5rem;
 }
 .topText {
   display: flex;
@@ -338,8 +339,15 @@ header {
     font-size: 28px;
     font-family: "Poppins";
   }
-  .cardText {
-    margin-top: 2rem;
+
+.cardText {
+    position: relative;
+    z-index: 1;
+    margin-top: -4rem;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: -5%;
+    font-size: 26px;
   }
   .gallery {
     display: grid;
