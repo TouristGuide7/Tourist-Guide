@@ -125,8 +125,8 @@
       "autumn": [
         {
           "continent": "Europe",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80XHiHGCKfJLhDMKq_ni-D6TO1glAiVFB13TflUZpqHFpKRsKCgyxB6aS2ngUlOmd9WfS1M2t7vI-0s9JCmUKDIG0puvKRlgcioBs9SeMwuXBQSq-_oBjJ9cztWQ_mgHsdJpBkl1ucuGRpsLiqmP3AQ4So7JQch1wspiRf_Q5lR7J6hCu-4Lxn5oEbHKAp-QIAtqkhPqjMeIBPnoTThezX2VrAnlsoPTsZV4G4Lj4cK5ca304CdeYXyS-Gp5x_T3W8gMPx_rBihVXf1o2ivpZMK4oPpDM7KJTdJ4AcYdoxR1jA=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=820&q=80",
           "country": "France",
           "place": "Alsace",
           "culture": "French",
@@ -135,8 +135,8 @@
         },
         {
           "continent": "Asia",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80XHiHGCKfJLhDMKq_ni-D6TO1glAiVFB13TflUZpqHFpKRsKCgyxB6aS2ngUlOmd9WfS1M2t7vI-0s9JCmUKDIG0puvKRlgcioBs9SeMwuXBQSq-_oBjJ9cztWQ_mgHsdJpBkl1ucuGRpsLiqmP3AQ4So7JQch1wspiRf_Q5lR7J6hCu-4Lxn5oEbHKAp-QIAtqkhPqjMeIBPnoTThezX2VrAnlsoPTsZV4G4Lj4cK5ca304CdeYXyS-Gp5x_T3W8gMPx_rBihVXf1o2ivpZMK4oPpDM7KJTdJ4AcYdoxR1jA=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1542931287-023b922fa89b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEphcGFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+          "cardImg":"https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
           "country": "Japan",
           "place": "Kawazu Cherry Blossom Park",
           "culture": "Japanese",
@@ -146,7 +146,7 @@
         {
           "continent": "North America",
           "imgUrl": "https://www.travelandleisure.com/thmb/OiEemoNjpwQz_V80z09pxAuA34I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/03-catskill-mountains-new-york-FALLLEAFWATCH0917-8d043a0c1af544a18aff668db8fa8e6b.jpg",
-          "cardImg":"",
+          "cardImg":"https://images.unsplash.com/photo-1588272947922-21cbc34dc3a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
           "country": "USA",
           "place": "The Catskills",
           "culture": "American",
@@ -155,8 +155,8 @@
         },
         {
           "continent": "South America",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80MX3qlgJuKCkdSUOc78GxeUXQ7fEVTl9rI8EP-TiC6Wq__ND6EKNXOEI3EfoLxKkcM1CT8AIa-FCmsIwwd5M35UjmN_mQ3S9uG6QNuSlfrQb39bDDeVMg8dNUxmNrusjxlG5nqyKMJp-Oq4Dw=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1508710285745-edc8137d6b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFyZ2VudGluYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "cardImg":"https://images.unsplash.com/photo-1545889238-7db7056fb932?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGFyZ2VudGluYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
           "country": "Argentina",
           "place": "Mendoza",
           "culture": "Argentinian",
@@ -165,8 +165,8 @@
         },
         {
           "continent": "Africa",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83N4sz2cmrvQbKo9pUupdEtFLwS6Qn3tvcTKtvbnZ1BQsHTAWEplnE0RZNgNGGJtzJKvzAHyxraslIyAVG1kHMpBokycy-PX3RfzwhbgFABFTlJLd7D1xXfLY1yu4_tfEuPu4RL7QkhSsax1doVbG-PQpL81Vg-QV_ksr578rpyASBmKUNiUvQ4kjcV68pM644c6uEmERg=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1576485375217-d6a95e34d043?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U291dGglMjBBZnJpY2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "cardImg":"https://images.unsplash.com/photo-1547970810-dc1eac37d174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=636&q=80",
           "country": "South Africa",
           "place": "Kruger National Park",
           "culture": "South African",
@@ -175,8 +175,8 @@
         },
         {
           "continent": "Europe",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81tVfhXZGRW9HhGhPt9byl19xW__Isd56hkRY_fYe3C7kW--nAuTdISgsf1dqugbvEpl2-oGQJS3DiM65h1SXJf9NR5d6GatPcoBfKbGykCj_Tfk2XKWR7VrKeTlNX9ekEfnvjIYi3huxqaypr8=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1534313314376-a72289b6181e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1552035496-08efc7baf40e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=773&q=80",
           "country": "Germany",
           "place": "Black Forest",
           "culture": "German",
@@ -185,8 +185,8 @@
         },
         {
           "continent": "Asia",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80i6G5hOq_bSQ7UrdoEyDgxXcphx7WzlY84Mtfoy5bFzf6xMuo1O3FbCYIrYEvIDM3IOKSMe0aOmOYuIqElAOws278f2piwyciskZevpRTc4MxVt8eHDYJNOHysKFOehcf9c_jc4szeeBaRozy3tU-vEIS32ZsiIojXFbgcBqcbIZEtl_FBMRo0Av4blFrY1xlWbfA=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1556880003-4fcd06418af3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1508804052814-cd3ba865a116?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
           "country": "China",
           "place": "Zhangjiajie National Forest Park",
           "culture": "Chinese",
@@ -195,8 +195,8 @@
         },
         {
           "continent": "North America",
-          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83TbGQbiYStQqzfezrhxh6AFQOAsen8n5n5RuJ55BFhg9i4-_5il50XKJe_4OW9kYD3tTEAGIYDKkmyTTfNH4uc4MOIj36nrTQ1O-5ceen8E9Yqvl_hy8HoEvUfldPoeP9z87nPyLNDxsAMg5ZLea6M5Ja4=w250-h200-p",
-          "cardImg":"",
+          "imgUrl": "https://images.unsplash.com/photo-1572816703269-bccda14a887b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=326&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1588272947922-21cbc34dc3a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
           "country": "USA",
           "place": "New England",
           "culture": "American",
@@ -512,6 +512,14 @@
             "description": "Machu Picchu is an ancient Incan city located in the Andes Mountains. It's known for its well-preserved ruins, stunning architecture, and panoramic views.",
             "category": "Archaeological Site",
             "imgUrl": "https://www.machupicchu.gob.pe/"
+          },
+          {
+            "name": "Pyramids of Giza",
+            "cardImg":"",
+            "country": "Egypt",
+            "description": "The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt. The Great Pyramid is the largest and most famous of the pyramids and is one of the Seven Wonders of the Ancient World.",
+            "category": "Archaeological Site",
+            "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
           },
           {
             "name": "Pyramids of Giza",

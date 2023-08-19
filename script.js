@@ -24,10 +24,8 @@ const famousCountry = document.querySelectorAll(".fCountry")
 const famousCountryImg = document.querySelectorAll(".fImg")
 const mainCountry = document.querySelectorAll(".mainCountry")
 const totalCardLength = document.querySelectorAll(".cardItem")
+let mainButton = document.getElementById("mainBtn")
 
-
-const winterCity = document.querySelectorAll(".winterCity")
-const winterCityCardLength = document.querySelectorAll(".cityCardMain")
 
 const touristAPI = "data.json"
 async function newFunction(){
@@ -35,23 +33,56 @@ async function newFunction(){
   const data = await response.json()
 
 
-  for(let i = 0 ; i < totalCardLength.length; i++){
-    travelCity[i].innerHTML = data.winter[i].country
-    countryDiscription[i].innerHTML = data.winter[i].smallDiscription
-    continent[i].innerHTML = data.winter[i].continent
-    countryCulture[i].innerHTML += `: ${data.winter[i].culture}`
-    countryImage[i].src = data.winter[i].imgUrl
+  if(mainButton.value == "winter"){
+    for(let i = 0 ; i < totalCardLength.length; i++){
+      travelCity[i].innerHTML = data.winter[i].country
+      countryDiscription[i].innerHTML = data.winter[i].smallDiscription
+      continent[i].innerHTML = data.winter[i].continent
+      countryCulture[i].innerHTML += `: ${data.winter[i].culture}`
+      countryImage[i].src = data.winter[i].imgUrl
+    }
   }
+  else if(mainButton.value == "summer"){
+    for(let i = 0 ; i < totalCardLength.length; i++){
+      travelCity[i].innerHTML = data.summer[i].country
+      countryDiscription[i].innerHTML = data.summer[i].smallDiscription
+      continent[i].innerHTML = data.summer[i].continent
+      countryCulture[i].innerHTML += `: ${data.summer[i].culture}`
+      countryImage[i].src = data.summer[i].imgUrl
+    }
+  }
+  else if(mainButton.value == "autumn"){
+    for(let i = 0 ; i < totalCardLength.length; i++){
+      travelCity[i].innerHTML = data.autumn[i].country
+      countryDiscription[i].innerHTML = data.autumn[i].smallDiscription
+      continent[i].innerHTML = data.autumn[i].continent
+      countryCulture[i].innerHTML += `: ${data.autumn[i].culture}`
+      countryImage[i].src = data.autumn[i].imgUrl
+    }
+  }
+  
+  else if(mainButton.value == "spring"){
+    for(let i = 0 ; i < totalCardLength.length; i++){
+      travelCity[i].innerHTML = data.spring[i].country
+      countryDiscription[i].innerHTML = data.spring[i].smallDiscription
+      continent[i].innerHTML = data.spring[i].continent
+      countryCulture[i].innerHTML += `: ${data.spring[i].culture}`
+      countryImage[i].src = data.spring[i].imgUrl
+    }
+  }
+
   for(let i= 0; i < famousCountry.length; i++){
     famousCountry[i].innerHTML = data.famous_places[i].country
   }
-  for(let i = 0 ; i < winterCityCardLength.length ; i ++){
-winterCity[i].innerHTML = data.winter[i].country
-  }
-
 }
 
 newFunction()
+
+
+
+
+
+
 
 
 
