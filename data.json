@@ -439,5 +439,35 @@
           "smallDiscription": "Antalya, Turkey, offers a blend of history, beaches, and summer activities.",
           "description": "Antalya, Turkey, offers a blend of history, beaches, and summer activities. Explore ancient ruins, relax on the beaches, and enjoy the vibrant local culture."
         }
-      ]
+      ],
+        "famous_places": [
+          {
+            "name": "Eiffel Tower",
+            "country": "France",
+            "description": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris. It is one of the most recognizable structures in the world and a symbol of France.",
+            "category": "Landmark",
+            "imgUrl": "https://www.toureiffel.paris/en"
+          },
+          {
+            "name": "Great Wall of China",
+            "country": "China",
+            "description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China.",
+            "category": "Historical Site",
+            "imgUrl": "http://www.chinagreatwall.org/"
+          },
+          {
+            "name": "Machu Picchu",
+            "country": "Peru",
+            "description": "Machu Picchu is an ancient Incan city located in the Andes Mountains. It's known for its well-preserved ruins, stunning architecture, and panoramic views.",
+            "category": "Archaeological Site",
+            "imgUrl": "https://www.machupicchu.gob.pe/"
+          },
+          {
+            "name": "Pyramids of Giza",
+            "country": "Egypt",
+            "description": "The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt. The Great Pyramid is the largest and most famous of the pyramids and is one of the Seven Wonders of the Ancient World.",
+            "category": "Archaeological Site",
+            "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
+          }
+        ]
     }
