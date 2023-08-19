@@ -18,16 +18,16 @@ header {
   color: #ffffff;
   box-shadow: 0px 2px 80px 0px #00000067 inset;
 }
-header .item1{
+header .item1 {
   text-align: center;
 }
 
-.main{
+.main {
   font-size: 110px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   text-transform: uppercase;
 }
-.user{
+.user {
   text-transform: capitalize;
 }
 .head {
@@ -54,18 +54,17 @@ header .item1{
   font-weight: bold;
   color: #ffffff;
 }
-.img1{
+.img1 {
   z-index: 0;
   width: 100%;
   position: relative;
   height: 51.6rem;
 }
-.img2{
+.img2 {
   z-index: 2;
   width: 100%;
   position: relative;
   top: -962px;
-
 }
 .headText {
   position: relative;
@@ -99,7 +98,7 @@ header .item1{
   right: 0;
   bottom: 0;
   margin: auto;
-  content: '';
+  content: "";
   border-radius: 50%;
   display: block;
   width: 20em;
@@ -185,7 +184,6 @@ header .item1{
   background: url(assists/winterPic/malam.jpg);
   background-size: cover;
   box-shadow: inset 0px 12px 83px 25px rgba(0, 0, 0, 0.25);
-
 }
 .city4 {
   grid-area: city4;
@@ -273,25 +271,27 @@ header .item1{
   margin: 6rem 26px;
   gap: 40px 40px;
 }
-.cardItem{
+.cardItem {
   position: relative;
   border-radius: 24px;
-font-size: 18px;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
-transition: all 0.3s ease;
-overflow: hidden;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transition: all 0.3s ease;
+  overflow: hidden;
 }
-.card-image{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
-
+.card-image {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-.card-image , .card-image img{
+.card-image,
+.card-image img {
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 0;
 }
-.cardText{
+.cardText {
   position: relative;
   z-index: 1;
   margin-top: -21rem;
@@ -317,11 +317,9 @@ overflow: hidden;
   font-size: 20px;
   font-weight: bold;
   font-family: "Poppins";
-
 }
 .description {
   margin: 16px 0px;
-  
 }
 .cardItem:hover {
   transform: translateY(-20px);
@@ -337,7 +335,7 @@ overflow: hidden;
   padding: 12rem 16px;
   box-shadow: inset 0px -105px 50px 0px white;
 }
-.text{
+.text {
   display: flex;
   flex-direction: column;
   color: #ffffff;
@@ -361,9 +359,9 @@ overflow: hidden;
   color: black;
   border: 2px solid #fff;
   margin-right: -10px;
-  border-radius: 40px 0  0  40px;
+  border-radius: 40px 0 0 40px;
 }
-.button1{
+.button1 {
   border: none;
   background-color: #00b9f3;
   text-decoration: none;
@@ -374,10 +372,10 @@ overflow: hidden;
   cursor: pointer;
 }
 @media (max-width: 900px) {
-  body{
+  body {
     overflow-x: hidden;
   }
-  .heading{
+  .heading {
     padding: 8px;
   }
   .famousCity {
@@ -421,18 +419,17 @@ overflow: hidden;
     margin: 6rem 26px;
     gap: 30px 30px;
   }
-  .feedback{
+  .feedback {
     display: flex;
     flex-direction: column;
   }
-  
 }
 
 @media (max-width: 600px) {
-  .promotion{
+  .promotion {
     font-size: 36px;
   }
-  .main{
+  .main {
     font-size: 52px;
   }
   .head {
@@ -489,7 +486,7 @@ overflow: hidden;
     margin-right: 0px;
     border-radius: 24px;
   }
-  .button1{
+  .button1 {
     width: 350px;
     margin-top: 8px;
     padding: 16px;
@@ -498,6 +495,5 @@ overflow: hidden;
   }
   .city a {
     font-size: 80px;
-
   }
 }

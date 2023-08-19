@@ -19,9 +19,7 @@ const countryDiscription = document.querySelectorAll(".description")
 const continent = document.querySelectorAll(".country1")
 const countryCulture = document.querySelectorAll(".culture")
 const countryImage = document.querySelectorAll(".countryImage")
-
-
-
+console.log(countryImage.length);
 const famousCountry = document.querySelectorAll(".fCountry")
 const mainCountry = document.querySelectorAll(".mainCountry")
 const totalCardLength = document.querySelectorAll(".cardItem")
@@ -32,10 +30,6 @@ const touristAPI = "data.json"
 async function newFunction(){
   const response = await fetch(touristAPI)
   const data = await response.json()
-
-
-
-
   for(let i = 0 ; i < totalCardLength.length; i++){
     travelCity[i].innerHTML = data.world[i].country
     countryDiscription[i].innerHTML = data.world[i].smallDiscription
