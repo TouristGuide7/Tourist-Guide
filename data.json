@@ -1,6 +1,4 @@
-{
-  "world": [
-    {
+ {
       "winter": [
         {
           "continent": "Europe",
@@ -110,38 +108,6 @@
           "culture": "Chinese",
           "smallDiscription": "Harbin, located in northeastern China, is famous for its stunning Ice and Snow Festival held annually.",
           "description": "Harbin, located in northeastern China, is famous for its stunning Ice and Snow Festival held annually. Visitors can admire impressive ice sculptures, go ice skating, and try winter activities in the city's parks. Experience Chinese culture by savoring delicious dumplings and exploring historic landmarks."
-        }
-      ],
-      "famousPlace": [
-        {
-          "place": "Machu Picchu",
-          "country": "Peru",
-          "imgUrl": "https://images.indianexpress.com/2023/06/Photo-1-1.jpg",
-          "description": "Machu Picchu is an ancient Incan citadel located in the Andes Mountains of Peru. It is one of the most famous archaeological sites in the world and a UNESCO World Heritage Site. Explore the well-preserved ruins, witness breathtaking mountain views, and learn about the fascinating history and culture of the Inca civilization."
-        },
-        {
-          "place": "Iguazu Falls",
-          "country": "Argentina and Brazil",
-          "imgUrl": "https://destinationlesstravel.com/wp-content/uploads/2022/10/Waterfalls-at-iguazu-Falls.jpg.webp",
-          "description": "Iguazu Falls is a breathtaking natural wonder located on the border of Argentina and Brazil. Explore the network of over 270 waterfalls, walk along scenic trails, and take in the spectacular views of the falls and surrounding rainforest."
-        },
-        {
-          "place": "Santorini",
-          "country": "Greece",
-          "imgUrl": "https://www.visitgreece.gr/files/merakos_05_santorini-oia_750x440.jpg",
-          "description": "Santorini is a stunning island in the Aegean Sea known for its picturesque whitewashed buildings and blue-domed churches. Explore the charming villages perched on cliffs, enjoy the beautiful sunsets over the caldera, and indulge in the delicious Greek cuisine and local wines."
-        },
-        {
-          "place": "Kyoto",
-          "country": "Japan",
-          "imgUrl": "https://media.tacdn.com/media/attractions-content--1x-1/10/29/d5/01.jpg",
-          "description": "Kyoto, the former capital of Japan, is a city steeped in tradition and culture. Explore historic temples, traditional tea houses, and beautiful gardens. Experience traditional Japanese arts such as tea ceremonies, calligraphy, and kimono-wearing."
-        },
-        {
-          "place": "Colosseum",
-          "country": "Italy",
-          "imgUrl": "https://th-thumbnailer.cdn-si-edu.com/QwNv3T5GpXcyglnYKJJvUiVk1vw=/1000x750/filters:no_upscale():focal(2183x1356:2184x1357)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/41/4f/414f4c9f-b197-4778-9dc6-2a0105cc2908/colosseum_in_rome-april_2007-1-_copie_2b.jpg",
-          "description": "The Colosseum, located in Rome, Italy, is an ancient amphitheater and a marvel of Roman engineering. Explore this historic site, which once hosted gladiator contests and other spectacles. Learn about the rich history of the Roman Empire and its influence on Western civilization."
         }
       ],
       "autumn": [
@@ -475,5 +441,3 @@
         }
       ]
     }
-  ]
-}

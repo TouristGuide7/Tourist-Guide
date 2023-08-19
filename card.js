@@ -8,7 +8,7 @@ function user() {
 }
 user();
 let getNumValue = localStorage.getItem("numValue");
-console.log(getNumValue);
+
 const countryDiscription = document.getElementById("description");
 const country = document.getElementById("country");
 const touristAPI = "data.json";
@@ -16,8 +16,8 @@ async function newFunction() {
   const response = await fetch(touristAPI);
   const data = await response.json();
   function card(a) {
-    countryDiscription.innerHTML = data.world[a].description;
-    country.innerHTML = data.world[a].country;
+    countryDiscription.innerHTML = data.winter[a].description;
+    country.innerHTML = data.winter[a].country;
   }
   card(getNumValue);
 }

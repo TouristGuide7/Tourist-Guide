@@ -33,20 +33,19 @@ async function newFunction(){
   const response = await fetch(touristAPI)
   const data = await response.json()
   for(let i = 0 ; i < totalCardLength.length; i++){
-    travelCity[i].innerHTML = data.world[i].winter[i].country
-    countryDiscription[i].innerHTML = data.world[i].winter[i].smallDiscription
-    continent[i].innerHTML = data.world[i].winter[i].continent
-    countryCulture[i].innerHTML += ": "+ data.world[i].winter[i].culture
-    countryImage[i].src = data.world[i].winter[i].imgUrl
+    travelCity[i].innerHTML = data.winter[i].country
+    countryDiscription[i].innerHTML = data.winter[i].smallDiscription
+    continent[i].innerHTML = data.winter[i].continent
+    countryCulture[i].innerHTML += `: ${data.winter[i].culture}`
+    countryImage[i].src = data.winter[i].imgUrl
   }
-  for(let j = 0; j < mainCountry.length; j++){
-    mainCountry[j].innerHTML = data.world[j].winter[i].country
-  }
-  for(let i= 0; i < famousCountry.length; i++){
-    famousCountry[i].innerHTML = data.famousPlace[i].place
-  }
+  // for(let j = 0; j < mainCountry.length; j++){
+  //   mainCountry[j].innerHTML = data.world[j].winter[i].country
+  // }
+  // for(let i= 0; i < famousCountry.length; i++){
+  //   famousCountry[i].innerHTML = data.famousPlace[i].place
+  // }
 
-  console.log(data);
 }
 
 newFunction()
