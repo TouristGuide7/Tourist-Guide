@@ -25,83 +25,83 @@
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
       @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
       header {
-        background: url(https://images.unsplash.com/photo-1545889238-7db7056fb932?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGFyZ2VudGluYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background: url(https://images.unsplash.com/photo-1683009427692-8a28348b0965?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
         background-size: cover;
         height: 40rem;
       }
     </style>
   </head>
   <body>
+    <div class="loading" id="loading">
+      <svg class="pl" viewBox="0 0 160 160" width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#000"></stop>
+            <stop offset="100%" stop-color="#fff"></stop>
+          </linearGradient>
+          <mask id="mask1">
+            <rect x="0" y="0" width="160" height="160" fill="url(#grad)"></rect>
+          </mask>
+          <mask id="mask2">
+            <rect x="28" y="28" width="104" height="104" fill="url(#grad)"></rect>
+          </mask>
+        </defs>
+        
+        <g>
+          <g class="pl__ring-rotate">
+            <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none" stroke="hsl(223,90%,55%)" stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452" stroke-linecap="round" transform="rotate(-45,80,80)"></circle>
+          </g>
+        </g>
+        <g mask="url(#mask1)">
+          <g class="pl__ring-rotate">
+            <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none" stroke="hsl(193,90%,55%)" stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452" stroke-linecap="round" transform="rotate(-45,80,80)"></circle>
+          </g>
+        </g>
+        
+        <g>
+          <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12" stroke-linecap="round" transform="translate(80,80)">
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)"></polyline>
+          </g>
+        </g>
+        <g mask="url(#mask1)">
+          <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12" stroke-linecap="round" transform="translate(80,80)">
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)"></polyline>
+            <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)"></polyline>
+          </g>
+        </g>
+        
+        <g>
+          <g transform="translate(64,28)">
+            <g class="pl__arrows" transform="rotate(45,16,52)">
+              <path fill="hsl(3,90%,55%)" d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z"></path>
+              <path fill="hsl(223,10%,90%)" d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z"></path>
+            </g>
+          </g>
+        </g>
+        <g mask="url(#mask2)">
+          <g transform="translate(64,28)">
+            <g class="pl__arrows" transform="rotate(45,16,52)">
+              <path fill="hsl(333,90%,55%)" d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z"></path>
+              <path fill="hsl(223,90%,80%)" d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z"></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
     <div class="main-container">
-      <div class="loading" id="loading">
-        <svg class="pl" viewBox="0 0 160 160" width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="#000"></stop>
-              <stop offset="100%" stop-color="#fff"></stop>
-            </linearGradient>
-            <mask id="mask1">
-              <rect x="0" y="0" width="160" height="160" fill="url(#grad)"></rect>
-            </mask>
-            <mask id="mask2">
-              <rect x="28" y="28" width="104" height="104" fill="url(#grad)"></rect>
-            </mask>
-          </defs>
-          
-          <g>
-            <g class="pl__ring-rotate">
-              <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none" stroke="hsl(223,90%,55%)" stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452" stroke-linecap="round" transform="rotate(-45,80,80)"></circle>
-            </g>
-          </g>
-          <g mask="url(#mask1)">
-            <g class="pl__ring-rotate">
-              <circle class="pl__ring-stroke" cx="80" cy="80" r="72" fill="none" stroke="hsl(193,90%,55%)" stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452" stroke-linecap="round" transform="rotate(-45,80,80)"></circle>
-            </g>
-          </g>
-          
-          <g>
-            <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12" stroke-linecap="round" transform="translate(80,80)">
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,10%,90%)" points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)"></polyline>
-            </g>
-          </g>
-          <g mask="url(#mask1)">
-            <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12" stroke-linecap="round" transform="translate(80,80)">
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(-135,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(-90,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(-45,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(0,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(45,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(90,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(135,0,0) translate(0,40)"></polyline>
-              <polyline class="pl__tick" stroke="hsl(223,90%,80%)" points="0,2 0,14" transform="rotate(180,0,0) translate(0,40)"></polyline>
-            </g>
-          </g>
-          
-          <g>
-            <g transform="translate(64,28)">
-              <g class="pl__arrows" transform="rotate(45,16,52)">
-                <path fill="hsl(3,90%,55%)" d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z"></path>
-                <path fill="hsl(223,10%,90%)" d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z"></path>
-              </g>
-            </g>
-          </g>
-          <g mask="url(#mask2)">
-            <g transform="translate(64,28)">
-              <g class="pl__arrows" transform="rotate(45,16,52)">
-                <path fill="hsl(333,90%,55%)" d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z"></path>
-                <path fill="hsl(223,90%,80%)" d="M14.009,102.499L.109,58.889c-.453-1.421,.559-2.889,1.991-2.889H29.899c1.433,0,2.444,1.468,1.991,2.889l-13.899,43.61c-.638,2.001-3.345,2.001-3.983,0Z"></path>
-              </g>
-            </g>
-          </g>
-        </svg>
-      </div>
       <header>
         <nav class="navbar navbar-expand-lg fs-5 sticky-top bg-white bg-opacity-25">
           <div class="container-fluid">
@@ -135,10 +135,10 @@
                     <a class="nav-link" href="travelWinter.html">FAQ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    <a class="nav-link" href="contactUs.html">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="reveiw.html">Review Page</a>
+                    <a class="nav-link" href="reveiw.html">Review</a>
                   </li>
                   
                   <li class="nav-item">
@@ -323,7 +323,7 @@
                 <a href="travelwinter.html" class="text-reset">Travel</a>
               </p>
               <p>
-                <a href="contactUs.html" class="text-reset">Contact Us</a>
+                <a href="contactUs.html" class="text-reset">Contact</a>
               </p>
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -367,313 +367,3 @@
         </script>
   </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tourist | Winter</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
-      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-      header {
-        background: url(assists/faizan-rao-0HBPgLeEiFA-unsplash.jpg);
-        background-size: cover;
-        height: 40rem;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="main-container">
-      <header>
-        <nav
-          class="navbar navbar-expand-lg fs-5 sticky-top bg-white bg-opacity-25"
-        >
-          <div class="container-fluid">
-            <a class="navbar-brand" href="Tourist_Winter.html">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ul me-auto mb-2 mb-lg-0"></ul>
-              <div class="d-flex" role="search">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      aria-current="page"
-                      href="Tourist_Winter.html"
-                      >Explore</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="travelWinter.html">Travel</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="contactUs.html"
-                      >Contact Us</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link user active" id="userName"
-                      ><i class="fa-solid fa-user me-2"></i
-                    ></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link user active" id="userCity"
-                      ><i class="fa-solid fa-city me-2"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <p class="contact">Destinations</p>
-      </header>
-      <div class="mainCardContent">
-        <div class="textContent">
-          <p class="cardContent">Lorem ipsum dolor sit amet .</p>
-          <p class="cardContentS">
-            Mollitia adipisci dolor aspernaturconsectetur, adipisicing elit
-          </p>
-        </div>
-        <div class="cityCardMain">
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://images.unsplash.com/photo-1514970746-d4a465d514d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(0)"><p class="mainCountry">Suitzerland</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://images.unsplash.com/photo-1517918558653-3a2c5ab393a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(1)"><p class="mainCountry">Japan</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://images.unsplash.com/photo-1502003148287-a82ef80a6abc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(2)"><p class="mainCountry">Canada</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://images.unsplash.com/photo-1571989237340-98fb838eeef1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(3)"><p class="mainCountry">Norway</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://images.unsplash.com/photo-1506777438561-990bb0ab05d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(4)"><p class="mainCountry">Newzealand</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://plus.unsplash.com/premium_photo-1670270190356-289ce24b6a85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(5)"><p class="mainCountry">Austria</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1596636478939-59fed7a083f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html " onclick="buttonRender(6)"><p class="mainCountry">Sweden</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            ;
-            style="
-              background-image: url(https://images.unsplash.com/photo-1489593426629-5e4e00ce821c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=415&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(7)"><p class="mainCountry">Iceland</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1572787514629-72872e4fc123?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(8)"><p class="mainCountry">USA</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1600211906168-fbc6df476b1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(9)"><p class="mainCountry">Argentina</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            style="
-              background-image: url(https://images.unsplash.com/photo-1576485375217-d6a95e34d043?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(10)"><p class="mainCountry">Soouth Koria</p></a>
-            </div>
-          </div>
-          <div
-            class="cardItem"
-            style="
-              background-image: url(assists/tapio-haaja-X3x-zCLeLJs-unsplash.jpg);
-            "
-          >
-            <div class="cardText">
-              <a href="card.html" onclick="buttonRender(11)"><p class="mainCountry">Finland</p></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="feedback">
-      <div class="text">
-        <p class="touch">Keep in touch</p>
-        <p class="travel">travel with us</p>
-      </div>
-      <div class="submit">
-        <input class="email" placeholder="Email Address" type="text" />
-        <button type="submit" class="button1">Submit</button>
-      </div>
-    </div>
-    <footer class="text-center text-lg-start bg-white text-muted">
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <div class="row mt-3">
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fas fa-gem me-3 text-secondary"></i>Company name
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
-            </div>
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-              <p>
-                <a href="#!" class="text-reset">Pricing</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Settings</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Orders</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Help</a>
-              </p>
-            </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <i class="fas fa-home me-3 text-secondary"></i> New York, NY
-                10012, US
-              </p>
-              <p>
-                <i class="fas fa-envelope me-3 text-secondary"></i>
-                info@example.com
-              </p>
-              <p>
-                <i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88
-              </p>
-              <p>
-                <i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
-</html>
->>>>>>> Stashed changes

@@ -4,6 +4,7 @@ function buttonRender(num, place){
 }
 
 
+
 function user(){
   const gName = document.getElementById("userName")
   const gCity = document.getElementById("userCity")
