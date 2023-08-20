@@ -4,165 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourist | Winter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assists/WEB ICON.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap");
-      body {
-        font-family: "Poppins", sans-serif;
-        background-color: #f2f2f2;
-        margin: 0;
-        padding: 0;
-      }
-
-      .review-card {
-        width: 400px;
-        background-color: #fff;
-        border: 1px solid #e0e0e0;
-        border-radius: 5px;
-        margin: 20px auto;
-        padding: 20px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      
-    }
-      .review-card:hover{
-
-      }
-
-      .review-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 15px;
-      }
-
-      .review-header img {
-        width: 60px;
-        height: 60px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-right: 15px;
-      }
-
-      .user-info {
-        flex: 1;
-      }
-
-      .user-info h3 {
-        font-size: 20px;
-        margin: 0;
-        color: #333;
-      }
-
-      .user-info p {
-        font-size: 14px;
-        margin: 0;
-        color: #666;
-      }
-
-      .review-content p {
-        font-size: 16px;
-        color: #333;
-        line-height: 1.5;
-      }
-
-      .rating {
-        font-size: 18px;
-        color: #ffcc00;
-        margin-top: 15px;
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+      header {
+        background: url(assists/faizan-rao-0HBPgLeEiFA-unsplash.jpg);
+        background-size: cover;
+        height: 40rem;
       }
     </style>
   </head>
   <body>
+    <div class="main-container">
+      <header>
+        <nav class="navbar navbar-expand-lg fs-5 sticky-top bg-white bg-opacity-25">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="Tourist_Winter.html"><img src="assists/NAVBAR.png" alt="" srcset="" ; style="height: 50px;"></a>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ul me-auto mb-2 mb-lg-0">
+              </ul>
+              <div class="d-flex" role="search">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Tourist_Winter.html"
+                      >Explore</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="travelWinter.html">Travel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="travelWinter.html">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactUs.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link user  active" id="userName"
+                      ><i class="fa-solid fa-user me-2"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link user  active" id="userCity"
+                      ><i class="fa-solid fa-city me-2"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <p class="contact">Destinations</p>
+        <button value="winter" id="cardMainButton"></button>
+      </header>
+      <div class="mainCardContent">
+    
     <div class="review-card">
-      <div class="review-header">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAkFBMVEX///8AESEAAAAABxs6PUXu8PD///3+/f8AEiD8/PwAAAkDEiMAAA4ACB0ADyEAABIAABe4ur7Gyczl5udydXyvsrTe4OF1eXwVGSejpqkjJi3P0tKWmZwHDBbV2NorLjhNT1WHiZBfYGZDSE6Bg4YhJjIAABw0Nz1XXF9oam6Mj5IVGiNER0ccICo/QUUbHiT/saUyAAAEAklEQVR4nO2a2XLiOhCG5TaSLcvyDmbxkAxLWGYg7/92I5mQwUzADojmnCp9uUglF/iv7r/V3TKEWCwWi8VisVgsFovFYrFYDONxVv9mjHhPllKLIIQquP7De7Ygmv2czXur3nxWTejzZHhEhSVbLAFi6bruWwyw2g6I/i/DV8M5mc6C0HWEc0AIF8JFThjHz5cy72gHkdPAj2CVoodG1w8tIBJ+U40Kk4QtP2QRDc4ZX4NwvkLAQiULU43H+OaCGC1nyxiudbYgztP0aR4f+rgnYRZEX0upkb9yTDF8lVwR4zjhDNM3fbgqRllngiWFefT323UxfjhT7RRHDUnfrrlG444HKFp0g1q0JMqJHLSy8oiULWqUj9dYxzE9b09fIIdYaqZtidK5AqxhJ+ugxgEsG6cXW9Spmimamv9SbLpkSqCpGcCF7n1CBFgjDu9Q4ckL2vjXS5w2H0OJpMYjo3bjxCmKFt01p+9tqZL7HMs2hGzC6z5WozHi1jBpSZUcoo6im6tyIqgwxZBcDcbR13WlLBW+ou5Th+5wSY37PiU4Y+gBz1OD+oW68l3I1LKJqIZzj1Sxe8xMo5ySXVrfGSCTQqhDcaLG90UEY6xRooFH8k2QRM7JyRNFSVxS8oT7Nqb2JZ4uQedL21k4SgrMM8Y4fpqOTMoVHJlvn5KkBnSQVj8X21E6eOIl5AeNSn5WilSF04xrLacKOPEY4RnVrkKVQ6t9vM6aj/U8fWe7jvcVRb33o1UMMkpgPGr6djpaQiIkxBWOh+ry7fcCKeoL4uB9XvSzAaV0kPWL+Xvg1tUuw15fxY0/uj+oB+Ql/L3ZimQAkAx3wwQgkJ9tXSRQ5o93DyfpMDztkY7w/chVP6otnNxL+iL4lT3WPfrDq9A9myTEx1l8PmDIcHQw9oNQnik67FKfWYSCPHLQ4WWXFfxEzuJhYjwtxm/d6/4iHB/K+i2aeTGc8aLDAn4GFPwhlcW6rJj/hgdGjwgNqwfz7hY+qhGh+R1YZZ9+zMHfxY0pMXwoq3a9CW4S4zjBxnRhcbWxdC+mJgL6Zk8dxuj4tjxp3LHZCYOR8tY8aYKF2brKr74dayMKTV5ZqPZ0T2hUcApzzuFksLsnNMo5u4FBI1ffP4Ub+AYvdBh3218BtQTH9ZgZIzOS3XzWHBGQGdGiKcP257UQl6bE5Pt7E1Vf2RpSM/nG9HmJyNg76er7Q9Y/mKuqdWggNuHajBi6PN9ZbkC4SzPLcP7DNxAb/4cZG09iI2piMzaeBr6BTPmBmWs4/pIYUJO8GGqbaQiJ1N/puxUpEzC3OkyL195d7F8Lk6+APXof5tZNxsnd04D6gOfdaVssFovFYrFYLBaLxWKx/J/5A70TNoyPXIVvAAAAAElFTkSuQmCC" alt="User Image" />
-        <div class="user-info">
-          <h3>User's Name</h3>
-          <p>Location, Country</p>
-        </div>
-      </div>
-      <div class="review-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam
-          tellus. Donec dapibus quam quis erat tempus, non volutpat lectus
-          luctus.
-        </p>
-      </div>
-      <div class="rating">
-        <span>Rating: 5/5</span>
-      </div>
-    </div>
-    <div class="review-card">
-      <div class="review-header">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAkFBMVEX///8AESEAAAAABxs6PUXu8PD///3+/f8AEiD8/PwAAAkDEiMAAA4ACB0ADyEAABIAABe4ur7Gyczl5udydXyvsrTe4OF1eXwVGSejpqkjJi3P0tKWmZwHDBbV2NorLjhNT1WHiZBfYGZDSE6Bg4YhJjIAABw0Nz1XXF9oam6Mj5IVGiNER0ccICo/QUUbHiT/saUyAAAEAklEQVR4nO2a2XLiOhCG5TaSLcvyDmbxkAxLWGYg7/92I5mQwUzADojmnCp9uUglF/iv7r/V3TKEWCwWi8VisVgsFovFYrFYDONxVv9mjHhPllKLIIQquP7De7Ygmv2czXur3nxWTejzZHhEhSVbLAFi6bruWwyw2g6I/i/DV8M5mc6C0HWEc0AIF8JFThjHz5cy72gHkdPAj2CVoodG1w8tIBJ+U40Kk4QtP2QRDc4ZX4NwvkLAQiULU43H+OaCGC1nyxiudbYgztP0aR4f+rgnYRZEX0upkb9yTDF8lVwR4zjhDNM3fbgqRllngiWFefT323UxfjhT7RRHDUnfrrlG444HKFp0g1q0JMqJHLSy8oiULWqUj9dYxzE9b09fIIdYaqZtidK5AqxhJ+ugxgEsG6cXW9Spmimamv9SbLpkSqCpGcCF7n1CBFgjDu9Q4ckL2vjXS5w2H0OJpMYjo3bjxCmKFt01p+9tqZL7HMs2hGzC6z5WozHi1jBpSZUcoo6im6tyIqgwxZBcDcbR13WlLBW+ou5Th+5wSY37PiU4Y+gBz1OD+oW68l3I1LKJqIZzj1Sxe8xMo5ySXVrfGSCTQqhDcaLG90UEY6xRooFH8k2QRM7JyRNFSVxS8oT7Nqb2JZ4uQedL21k4SgrMM8Y4fpqOTMoVHJlvn5KkBnSQVj8X21E6eOIl5AeNSn5WilSF04xrLacKOPEY4RnVrkKVQ6t9vM6aj/U8fWe7jvcVRb33o1UMMkpgPGr6djpaQiIkxBWOh+ry7fcCKeoL4uB9XvSzAaV0kPWL+Xvg1tUuw15fxY0/uj+oB+Ql/L3ZimQAkAx3wwQgkJ9tXSRQ5o93DyfpMDztkY7w/chVP6otnNxL+iL4lT3WPfrDq9A9myTEx1l8PmDIcHQw9oNQnik67FKfWYSCPHLQ4WWXFfxEzuJhYjwtxm/d6/4iHB/K+i2aeTGc8aLDAn4GFPwhlcW6rJj/hgdGjwgNqwfz7hY+qhGh+R1YZZ9+zMHfxY0pMXwoq3a9CW4S4zjBxnRhcbWxdC+mJgL6Zk8dxuj4tjxp3LHZCYOR8tY8aYKF2brKr74dayMKTV5ZqPZ0T2hUcApzzuFksLsnNMo5u4FBI1ffP4Ub+AYvdBh3218BtQTH9ZgZIzOS3XzWHBGQGdGiKcP257UQl6bE5Pt7E1Vf2RpSM/nG9HmJyNg76er7Q9Y/mKuqdWggNuHajBi6PN9ZbkC4SzPLcP7DNxAb/4cZG09iI2piMzaeBr6BTPmBmWs4/pIYUJO8GGqbaQiJ1N/puxUpEzC3OkyL195d7F8Lk6+APXof5tZNxsnd04D6gOfdaVssFovFYrFYLBaLxWKx/J/5A70TNoyPXIVvAAAAAElFTkSuQmCC" alt="User Image" />
-        <div class="user-info">
-          <h3>User's Name</h3>
-          <p>Location, Country</p>
-        </div>
-      </div>
-      <div class="review-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam
-          tellus. Donec dapibus quam quis erat tempus, non volutpat lectus
-          luctus.
-        </p>
-      </div>
-      <div class="rating">
-        <span>Rating: 5/5</span>
-      </div>
-    </div><div class="review-card">
-      <div class="review-header">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAkFBMVEX///8AESEAAAAABxs6PUXu8PD///3+/f8AEiD8/PwAAAkDEiMAAA4ACB0ADyEAABIAABe4ur7Gyczl5udydXyvsrTe4OF1eXwVGSejpqkjJi3P0tKWmZwHDBbV2NorLjhNT1WHiZBfYGZDSE6Bg4YhJjIAABw0Nz1XXF9oam6Mj5IVGiNER0ccICo/QUUbHiT/saUyAAAEAklEQVR4nO2a2XLiOhCG5TaSLcvyDmbxkAxLWGYg7/92I5mQwUzADojmnCp9uUglF/iv7r/V3TKEWCwWi8VisVgsFovFYrFYDONxVv9mjHhPllKLIIQquP7De7Ygmv2czXur3nxWTejzZHhEhSVbLAFi6bruWwyw2g6I/i/DV8M5mc6C0HWEc0AIF8JFThjHz5cy72gHkdPAj2CVoodG1w8tIBJ+U40Kk4QtP2QRDc4ZX4NwvkLAQiULU43H+OaCGC1nyxiudbYgztP0aR4f+rgnYRZEX0upkb9yTDF8lVwR4zjhDNM3fbgqRllngiWFefT323UxfjhT7RRHDUnfrrlG444HKFp0g1q0JMqJHLSy8oiULWqUj9dYxzE9b09fIIdYaqZtidK5AqxhJ+ugxgEsG6cXW9Spmimamv9SbLpkSqCpGcCF7n1CBFgjDu9Q4ckL2vjXS5w2H0OJpMYjo3bjxCmKFt01p+9tqZL7HMs2hGzC6z5WozHi1jBpSZUcoo6im6tyIqgwxZBcDcbR13WlLBW+ou5Th+5wSY37PiU4Y+gBz1OD+oW68l3I1LKJqIZzj1Sxe8xMo5ySXVrfGSCTQqhDcaLG90UEY6xRooFH8k2QRM7JyRNFSVxS8oT7Nqb2JZ4uQedL21k4SgrMM8Y4fpqOTMoVHJlvn5KkBnSQVj8X21E6eOIl5AeNSn5WilSF04xrLacKOPEY4RnVrkKVQ6t9vM6aj/U8fWe7jvcVRb33o1UMMkpgPGr6djpaQiIkxBWOh+ry7fcCKeoL4uB9XvSzAaV0kPWL+Xvg1tUuw15fxY0/uj+oB+Ql/L3ZimQAkAx3wwQgkJ9tXSRQ5o93DyfpMDztkY7w/chVP6otnNxL+iL4lT3WPfrDq9A9myTEx1l8PmDIcHQw9oNQnik67FKfWYSCPHLQ4WWXFfxEzuJhYjwtxm/d6/4iHB/K+i2aeTGc8aLDAn4GFPwhlcW6rJj/hgdGjwgNqwfz7hY+qhGh+R1YZZ9+zMHfxY0pMXwoq3a9CW4S4zjBxnRhcbWxdC+mJgL6Zk8dxuj4tjxp3LHZCYOR8tY8aYKF2brKr74dayMKTV5ZqPZ0T2hUcApzzuFksLsnNMo5u4FBI1ffP4Ub+AYvdBh3218BtQTH9ZgZIzOS3XzWHBGQGdGiKcP257UQl6bE5Pt7E1Vf2RpSM/nG9HmJyNg76er7Q9Y/mKuqdWggNuHajBi6PN9ZbkC4SzPLcP7DNxAb/4cZG09iI2piMzaeBr6BTPmBmWs4/pIYUJO8GGqbaQiJ1N/puxUpEzC3OkyL195d7F8Lk6+APXof5tZNxsnd04D6gOfdaVssFovFYrFYLBaLxWKx/J/5A70TNoyPXIVvAAAAAElFTkSuQmCC" alt="User Image" />
-        <div class="user-info">
-          <h3>User's Name</h3>
-          <p>Location, Country</p>
-        </div>
-      </div>
-      <div class="review-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam
-          tellus. Donec dapibus quam quis erat tempus, non volutpat lectus
-          luctus.
-        </p>
-      </div>
-      <div class="rating">
-        <span>Rating: 5/5</span>
-      </div>
-    </div><div class="review-card">
-      <div class="review-header">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAkFBMVEX///8AESEAAAAABxs6PUXu8PD///3+/f8AEiD8/PwAAAkDEiMAAA4ACB0ADyEAABIAABe4ur7Gyczl5udydXyvsrTe4OF1eXwVGSejpqkjJi3P0tKWmZwHDBbV2NorLjhNT1WHiZBfYGZDSE6Bg4YhJjIAABw0Nz1XXF9oam6Mj5IVGiNER0ccICo/QUUbHiT/saUyAAAEAklEQVR4nO2a2XLiOhCG5TaSLcvyDmbxkAxLWGYg7/92I5mQwUzADojmnCp9uUglF/iv7r/V3TKEWCwWi8VisVgsFovFYrFYDONxVv9mjHhPllKLIIQquP7De7Ygmv2czXur3nxWTejzZHhEhSVbLAFi6bruWwyw2g6I/i/DV8M5mc6C0HWEc0AIF8JFThjHz5cy72gHkdPAj2CVoodG1w8tIBJ+U40Kk4QtP2QRDc4ZX4NwvkLAQiULU43H+OaCGC1nyxiudbYgztP0aR4f+rgnYRZEX0upkb9yTDF8lVwR4zjhDNM3fbgqRllngiWFefT323UxfjhT7RRHDUnfrrlG444HKFp0g1q0JMqJHLSy8oiULWqUj9dYxzE9b09fIIdYaqZtidK5AqxhJ+ugxgEsG6cXW9Spmimamv9SbLpkSqCpGcCF7n1CBFgjDu9Q4ckL2vjXS5w2H0OJpMYjo3bjxCmKFt01p+9tqZL7HMs2hGzC6z5WozHi1jBpSZUcoo6im6tyIqgwxZBcDcbR13WlLBW+ou5Th+5wSY37PiU4Y+gBz1OD+oW68l3I1LKJqIZzj1Sxe8xMo5ySXVrfGSCTQqhDcaLG90UEY6xRooFH8k2QRM7JyRNFSVxS8oT7Nqb2JZ4uQedL21k4SgrMM8Y4fpqOTMoVHJlvn5KkBnSQVj8X21E6eOIl5AeNSn5WilSF04xrLacKOPEY4RnVrkKVQ6t9vM6aj/U8fWe7jvcVRb33o1UMMkpgPGr6djpaQiIkxBWOh+ry7fcCKeoL4uB9XvSzAaV0kPWL+Xvg1tUuw15fxY0/uj+oB+Ql/L3ZimQAkAx3wwQgkJ9tXSRQ5o93DyfpMDztkY7w/chVP6otnNxL+iL4lT3WPfrDq9A9myTEx1l8PmDIcHQw9oNQnik67FKfWYSCPHLQ4WWXFfxEzuJhYjwtxm/d6/4iHB/K+i2aeTGc8aLDAn4GFPwhlcW6rJj/hgdGjwgNqwfz7hY+qhGh+R1YZZ9+zMHfxY0pMXwoq3a9CW4S4zjBxnRhcbWxdC+mJgL6Zk8dxuj4tjxp3LHZCYOR8tY8aYKF2brKr74dayMKTV5ZqPZ0T2hUcApzzuFksLsnNMo5u4FBI1ffP4Ub+AYvdBh3218BtQTH9ZgZIzOS3XzWHBGQGdGiKcP257UQl6bE5Pt7E1Vf2RpSM/nG9HmJyNg76er7Q9Y/mKuqdWggNuHajBi6PN9ZbkC4SzPLcP7DNxAb/4cZG09iI2piMzaeBr6BTPmBmWs4/pIYUJO8GGqbaQiJ1N/puxUpEzC3OkyL195d7F8Lk6+APXof5tZNxsnd04D6gOfdaVssFovFYrFYLBaLxWKx/J/5A70TNoyPXIVvAAAAAElFTkSuQmCC" alt="User Image" />
-        <div class="user-info">
-          <h3>User's Name</h3>
-          <p>Location, Country</p>
-        </div>
-      </div>
-      <div class="review-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam
-          tellus. Donec dapibus quam quis erat tempus, non volutpat lectus
-          luctus.
-        </p>
-      </div>
-      <div class="rating">
-        <span>Rating: 5/5</span>
-      </div>
-    </div><div class="review-card">
-      <div class="review-header">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAkFBMVEX///8AESEAAAAABxs6PUXu8PD///3+/f8AEiD8/PwAAAkDEiMAAA4ACB0ADyEAABIAABe4ur7Gyczl5udydXyvsrTe4OF1eXwVGSejpqkjJi3P0tKWmZwHDBbV2NorLjhNT1WHiZBfYGZDSE6Bg4YhJjIAABw0Nz1XXF9oam6Mj5IVGiNER0ccICo/QUUbHiT/saUyAAAEAklEQVR4nO2a2XLiOhCG5TaSLcvyDmbxkAxLWGYg7/92I5mQwUzADojmnCp9uUglF/iv7r/V3TKEWCwWi8VisVgsFovFYrFYDONxVv9mjHhPllKLIIQquP7De7Ygmv2czXur3nxWTejzZHhEhSVbLAFi6bruWwyw2g6I/i/DV8M5mc6C0HWEc0AIF8JFThjHz5cy72gHkdPAj2CVoodG1w8tIBJ+U40Kk4QtP2QRDc4ZX4NwvkLAQiULU43H+OaCGC1nyxiudbYgztP0aR4f+rgnYRZEX0upkb9yTDF8lVwR4zjhDNM3fbgqRllngiWFefT323UxfjhT7RRHDUnfrrlG444HKFp0g1q0JMqJHLSy8oiULWqUj9dYxzE9b09fIIdYaqZtidK5AqxhJ+ugxgEsG6cXW9Spmimamv9SbLpkSqCpGcCF7n1CBFgjDu9Q4ckL2vjXS5w2H0OJpMYjo3bjxCmKFt01p+9tqZL7HMs2hGzC6z5WozHi1jBpSZUcoo6im6tyIqgwxZBcDcbR13WlLBW+ou5Th+5wSY37PiU4Y+gBz1OD+oW68l3I1LKJqIZzj1Sxe8xMo5ySXVrfGSCTQqhDcaLG90UEY6xRooFH8k2QRM7JyRNFSVxS8oT7Nqb2JZ4uQedL21k4SgrMM8Y4fpqOTMoVHJlvn5KkBnSQVj8X21E6eOIl5AeNSn5WilSF04xrLacKOPEY4RnVrkKVQ6t9vM6aj/U8fWe7jvcVRb33o1UMMkpgPGr6djpaQiIkxBWOh+ry7fcCKeoL4uB9XvSzAaV0kPWL+Xvg1tUuw15fxY0/uj+oB+Ql/L3ZimQAkAx3wwQgkJ9tXSRQ5o93DyfpMDztkY7w/chVP6otnNxL+iL4lT3WPfrDq9A9myTEx1l8PmDIcHQw9oNQnik67FKfWYSCPHLQ4WWXFfxEzuJhYjwtxm/d6/4iHB/K+i2aeTGc8aLDAn4GFPwhlcW6rJj/hgdGjwgNqwfz7hY+qhGh+R1YZZ9+zMHfxY0pMXwoq3a9CW4S4zjBxnRhcbWxdC+mJgL6Zk8dxuj4tjxp3LHZCYOR8tY8aYKF2brKr74dayMKTV5ZqPZ0T2hUcApzzuFksLsnNMo5u4FBI1ffP4Ub+AYvdBh3218BtQTH9ZgZIzOS3XzWHBGQGdGiKcP257UQl6bE5Pt7E1Vf2RpSM/nG9HmJyNg76er7Q9Y/mKuqdWggNuHajBi6PN9ZbkC4SzPLcP7DNxAb/4cZG09iI2piMzaeBr6BTPmBmWs4/pIYUJO8GGqbaQiJ1N/puxUpEzC3OkyL195d7F8Lk6+APXof5tZNxsnd04D6gOfdaVssFovFYrFYLBaLxWKx/J/5A70TNoyPXIVvAAAAAElFTkSuQmCC" alt="User Image" />
-        <div class="user-info">
-          <h3>User's Name</h3>
-          <p>Location, Country</p>
-        </div>
-      </div>
-      <div class="review-content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam
-          tellus. Donec dapibus quam quis erat tempus, non volutpat lectus
-          luctus.
-        </p>
-      </div>
-      <div class="rating">
-        <span>Rating: 5/5</span>
-      </div>
-    </div><div class="review-card">
       <div class="review-header">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAkFBMVEX///8AESEAAAAABxs6PUXu8PD///3+/f8AEiD8/PwAAAkDEiMAAA4ACB0ADyEAABIAABe4ur7Gyczl5udydXyvsrTe4OF1eXwVGSejpqkjJi3P0tKWmZwHDBbV2NorLjhNT1WHiZBfYGZDSE6Bg4YhJjIAABw0Nz1XXF9oam6Mj5IVGiNER0ccICo/QUUbHiT/saUyAAAEAklEQVR4nO2a2XLiOhCG5TaSLcvyDmbxkAxLWGYg7/92I5mQwUzADojmnCp9uUglF/iv7r/V3TKEWCwWi8VisVgsFovFYrFYDONxVv9mjHhPllKLIIQquP7De7Ygmv2czXur3nxWTejzZHhEhSVbLAFi6bruWwyw2g6I/i/DV8M5mc6C0HWEc0AIF8JFThjHz5cy72gHkdPAj2CVoodG1w8tIBJ+U40Kk4QtP2QRDc4ZX4NwvkLAQiULU43H+OaCGC1nyxiudbYgztP0aR4f+rgnYRZEX0upkb9yTDF8lVwR4zjhDNM3fbgqRllngiWFefT323UxfjhT7RRHDUnfrrlG444HKFp0g1q0JMqJHLSy8oiULWqUj9dYxzE9b09fIIdYaqZtidK5AqxhJ+ugxgEsG6cXW9Spmimamv9SbLpkSqCpGcCF7n1CBFgjDu9Q4ckL2vjXS5w2H0OJpMYjo3bjxCmKFt01p+9tqZL7HMs2hGzC6z5WozHi1jBpSZUcoo6im6tyIqgwxZBcDcbR13WlLBW+ou5Th+5wSY37PiU4Y+gBz1OD+oW68l3I1LKJqIZzj1Sxe8xMo5ySXVrfGSCTQqhDcaLG90UEY6xRooFH8k2QRM7JyRNFSVxS8oT7Nqb2JZ4uQedL21k4SgrMM8Y4fpqOTMoVHJlvn5KkBnSQVj8X21E6eOIl5AeNSn5WilSF04xrLacKOPEY4RnVrkKVQ6t9vM6aj/U8fWe7jvcVRb33o1UMMkpgPGr6djpaQiIkxBWOh+ry7fcCKeoL4uB9XvSzAaV0kPWL+Xvg1tUuw15fxY0/uj+oB+Ql/L3ZimQAkAx3wwQgkJ9tXSRQ5o93DyfpMDztkY7w/chVP6otnNxL+iL4lT3WPfrDq9A9myTEx1l8PmDIcHQw9oNQnik67FKfWYSCPHLQ4WWXFfxEzuJhYjwtxm/d6/4iHB/K+i2aeTGc8aLDAn4GFPwhlcW6rJj/hgdGjwgNqwfz7hY+qhGh+R1YZZ9+zMHfxY0pMXwoq3a9CW4S4zjBxnRhcbWxdC+mJgL6Zk8dxuj4tjxp3LHZCYOR8tY8aYKF2brKr74dayMKTV5ZqPZ0T2hUcApzzuFksLsnNMo5u4FBI1ffP4Ub+AYvdBh3218BtQTH9ZgZIzOS3XzWHBGQGdGiKcP257UQl6bE5Pt7E1Vf2RpSM/nG9HmJyNg76er7Q9Y/mKuqdWggNuHajBi6PN9ZbkC4SzPLcP7DNxAb/4cZG09iI2piMzaeBr6BTPmBmWs4/pIYUJO8GGqbaQiJ1N/puxUpEzC3OkyL195d7F8Lk6+APXof5tZNxsnd04D6gOfdaVssFovFYrFYLBaLxWKx/J/5A70TNoyPXIVvAAAAAElFTkSuQmCC" alt="User Image" />
         <div class="user-info">
