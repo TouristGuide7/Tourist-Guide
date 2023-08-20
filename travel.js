@@ -10,9 +10,9 @@ function user(){
   const travelCity = document.querySelectorAll(".localCity")
 const countryImage = document.querySelectorAll(".countryImage")
 
-const mainCardBtnValue = document.getElementById("cardMainButton")
+let mainCardBtnValue = document.getElementById("cardMainButton")
 
-console.log(mainCardBtnValue.value);
+
 
 const touristAPI = "data.json"
 async function newFunction(){
