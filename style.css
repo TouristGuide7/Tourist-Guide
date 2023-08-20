@@ -1,201 +1,387 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-.card-container{
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+header {
+  margin-bottom: 8rem;
+  color: white;
+}
+.contact {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 160px;
+  text-transform: uppercase;
+  font-family: "Poppins";
+}
+.ul a {
+  display: none;
+}
+.user {
+  text-transform: capitalize;
+}
+.cardMainImg {
+  width: 100%;
+  height: 40rem;
+  margin-top: -5rem;
+}
+.topText {
   display: flex;
   flex-direction: column;
+  margin: 26px;
+  line-height: 45px;
 }
-.cards{
-  display: flex;
-  border: 1.5px solid gray;
-  border-radius: 16px;
-  font-family: 'Josefin Sans', sans-serif;
-  margin:  2px 0;
+.topText-D {
+  font-size: 70px;
+  font-family: "Poppins";
+  color: #000000;
+}
+.topText-p {
+  font-size: 20px;
+  color: grey;
+  font-family: "Roboto";
+}
+.mainCardContent {
+  background-color: #ffffff;
+  margin: 0rem 16px;
+  padding: 16px;
+  position: relative;
+  margin-top: -26rem;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px 0px;
+  z-index: 1;
+}
+.textContent {
+  padding: 16px 0;
+}
+.cardContent {
+  font-size: 36px;
+  font-family: "Roboto";
+  color: #000000;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.cardContentS {
+  font-size: 26px;
+  font-family: "Roboto";
+  color: grey;
+  margin: -16px 0 16px 0;
+}
+.cityCardMain {
+  display: grid;
+  grid-template-rows: repeat(3, 800px);
+  grid-template-columns: repeat(4, auto);
+  gap: 30px 16px;
+}
+.cardItem {
+  position: relative;
+  border-radius: 24px;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.card-image {
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+.card-image,
+.card-image img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+.cardText {
+  position: relative;
+  z-index: 1;
+  margin-top: -9rem;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: -5%;
+  font-size: 36px;
 
 }
-.card-content{
-  width: 90%;
+.cardItem:hover {
+  transform: translateY(-20px);
+}
+.cardText a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.mainCountry {
+  font-size: 38px;
+  font-family: "Poppins";
+}
+.feedback {
+  background: url(assists/landing_image/landing\ pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 8rem 0px 0 0;
+  padding: 12rem 16px;
+  box-shadow: inset 0px -105px 50px 0px white;
+}
+.text {
   display: flex;
   flex-direction: column;
+  color: #ffffff;
 }
-.card-img img{
-  height: 200px;
-  width: 200px;
-  border-radius: 16px;
-  padding: 4px;
+.travel {
+  font-size: 89px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  margin: 0;
 }
-.heading{
-  margin: 16px 0;
+.touch {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.page {
+  background-color: white;
+}
+.pagetop {
+  text-align: center;
+}
+.page-heading {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+}
+.page-d {
   font-size: 24px;
-  font-weight: bold;
+  color: gray;
 }
-.mid-heading{
-  margin: 4px 0;
-  font-size: 14px;
-}
-.head-content{
-  padding: 4px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.page img {
   width: 100%;
-  height: 50%;
+  height: 500px;
 }
-.footer-content{
-  padding: 4px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  height: 50%;
+.page-heading-2 {
+  font-size: 50px;
+  font-family: "Roboto";
+  color: #000;
+  padding: 0px;
+  margin: 30px;
 }
-.heading-content{
-  width: 100%;
+.page-matter {
+  margin: 30px;
+  font-size: 30px;
 }
-.rating-box {
-  padding: 8px;
-  border-radius: 8px 8px 8px 0;
-  background-color: rgb(15, 15, 82);
-  color: #ffffff;
+.page-det p {
+  border-top: 2px solid rgb(194, 194, 194);
+  font-size: 20px;
+  margin: 30px;
+  padding: 50px;
 }
-.rating-content {
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+.page-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, auto);
 }
-.rating {
-  display: flex;
-  flex-direction: column;
-  text-align: end;
-}
-.rating p {
-  margin: 0;
-}
-.discription p{
-  line-height: 0.5;
-}
-.discription{
-  border-left: 2px solid gray;
-  padding: 4px 8px;
-}
-.pricesection p {
-  margin: 0;
-  line-height: 1.4;
-}
-.pricesection{
-  padding: 8px 16px;
-  text-align: end;
-}
-.price{
-  font-size: 22px;
-  font-weight: bold;
-}
-.card-button{
-  padding: 8px 16px ;
-  font-weight: bold;
-  background-color: rgb(15, 15, 82);;
-  border: none;
-  border-radius: 4px;
-  color: #ffffff;
+.page-gallery img {
+  border-radius: 20px;
+  text-align: center;
 }
 
-@media (max-width : 900px) {
-  .card-container{
+.page-det-2 {
+  margin: 30px;
+}
+.page-det-2 span {
+  background-color: rgb(73, 162, 214);
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  box-sizing: 30px;
+  border-radius: 10px;
+}
+.city-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: 2rem;
+}
+.days {
+  background-color: #00b9f3;
+  padding: 12px 16px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+.days2 {
+  color: #2bb809;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.gallery {
+  margin: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 16px;
+}
+.galleryPic img {
+  height: 250px;
+  border-radius: 16px;
+}
+.day1 {
+  font-size: 20px;
+  color: gray;
+}
+.boxDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  color: #000000;
+  margin: 0 46px ;
+
+}
+.boxContent {
+  font-size: 22px;
+  padding: 26px 0;
+}
+.boxContent li::marker {
+  content: "✔";
+  color: green;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.travel {
+  font-size: 89px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  margin: 0;
+}
+.touch {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.email {
+  width: 400px;
+  padding: 22px;
+  font-size: 20px;
+  color: black;
+  border: 2px solid #fff;
+  margin-right: -10px;
+  border-radius: 40px 0 0 40px;
+}
+.button1 {
+  border: none;
+  background-color: #00b9f3;
+  text-decoration: none;
+  padding: 24px 44px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .cityCardMain {
+    grid-template-rows: repeat(4, 600px);
+    grid-template-columns: repeat(3, auto);
+  }
+  .mainCountry {
+    font-size: 28px;
+    font-family: "Poppins";
+  }
+  .cardText {
+    margin-top: 2rem;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(1, auto);
+    gap: 8px;
+  }
+  .galleryPic img {
+    height: 250px;
+    border-radius: 16px;
+  }
+  .feedback {
     display: flex;
     flex-direction: column;
   }
-  .cards{
-    display: flex;
-    border: 1.5px solid gray;
-    border-radius: 16px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin:  2px 0;
-  
+  .contact {
+    margin-top: 3rem;
+    font-size: 83px;
   }
-  .card-content{
-    width: 100%;
+}
+@media (max-width: 600px) {
+  .contact {
+    margin-top: 6rem;
+    font-size: 48px;
+  }
+  .cityCardMain {
+    grid-template-rows: repeat(0, 300px);
+    grid-template-columns: repeat(1, auto);
+  }
+  .mainCountry {
+    font-size: 28px;
+    font-family: "Poppins";
+  }
+
+.cardText {
+    position: relative;
+    z-index: 1;
+    margin-top: -4rem;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: -5%;
+    font-size: 26px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(auto, auto);
+    gap: 8px;
+  }
+  .galleryPic img {
+    height: 250px;
+    border-radius: 16px;
+  }
+  .feedback {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
-  .card-img img{
-    height: 180px;
-    width: 180px;
-    border-radius: 16px;
-    padding: 4px;
+  .travel {
+    font-size: 45px;
   }
-  .heading{
-    margin: 8px 0;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .mid-heading{
-    margin: 0px 0;
+  .touch {
     font-size: 14px;
   }
-  .head-content{
-    padding: 4px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 30%;
+  .email {
+    width: 350px;
+    padding: 16px;
+    font-size: 16px;
+    margin-right: 0px;
+    border-radius: 24px;
   }
-  .footer-content{
-    padding: 4px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 70%;
-  }
-  .rating-box {
-    padding: 8px;
-    border-radius: 8px 8px 8px 0;
-    background-color: rgb(15, 15, 82);
-    color: #ffffff;
-  }
-  .rating-content {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .rating {
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-  }
-  .rating p {
-    margin: 0;
-  }
-  .discription p{
-    margin: 0;
-    line-height: 1.2;
-  }
-  .discription{
-    border-left: 2px solid gray;
-    padding: 4px 8px;
-    width: 300px;
-  }
-  .pricesection p {
-    margin: 0;
-    line-height: 1.4;
-  }
-  .pricesection{
-    padding: 8px 16px;
-    text-align: end;
-  }
-  .price{
-    font-size: 22px;
-    font-weight: bold;
-  }
-  .card-button{
-    padding: 8px 16px ;
-    font-weight: bold;
-    background-color: rgb(15, 15, 82);;
-    border: none;
-    border-radius: 4px;
-    color: #ffffff;
+  .button1 {
+    width: 350px;
+    margin-top: 8px;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 24px;
   }
 }

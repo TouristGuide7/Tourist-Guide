@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tousrist Guide | Landing Page</title>
+    <link rel="stylesheet" href="landingPage.css" />
+    <link rel="icon" href="assists/WEB ICON.png">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <p
+      class="title animate__animated animate__fadeInTopRight animate__delay-1s"
+    >
+      tell us which season you want to go
+    </p>
+    <div
+      class="landContainer animate__animated animate__fadeInBottomRight animate__delay-1s"
+    >
+      <div class="input-field">
+        <input type="text" placeholder="Enter Your Name" id="getName" />
+        <input type="text" placeholder="Enter Your Location" id="getCity" />
+      </div>
+      <select name="seasons" id="seasons">
+        <option value="Summer" id="Summer">Summer</option>
+        <option value="Winter" id="Winter">Winter</option>
+        <option value="Autumn" id="Autumn">Autumn</option>
+        <option value="Spring" id="Spring">Spring</option>
+      </select>
+      <button id="submit" type="submit">
+        <a id="btnlink" href="#">Click Here</a>
+      </button>
+    </div>
+    <script>
+      const seasons = document.querySelector("#seasons");
+      const btn = document
+        .getElementById("submit")
+        .addEventListener("click", () => {
+          const seasonsElement = seasons.value;
+          if (seasonsElement === "Summer") {
+            document.getElementById("btnlink").href = "Tourist_Summer.html";
+          } else if (seasonsElement === "Winter") {
+            document.getElementById("btnlink").href = "Tourist_Winter.html";
+          } else if (seasonsElement === "Autumn") {
+            document.getElementById("btnlink").href = "Tourist_Automn.html";
+          } else {
+            document.getElementById("btnlink").href = "Tourist_Spring.html";
+          }
+          const gN = document.getElementById("getName");
+          const cN = document.getElementById("getCity");
+          localStorage.setItem("userName", gN.value);
+          localStorage.setItem("cityName", cN.value);
+          let getName = localStorage.getItem("userName");
+          let getCity = localStorage.getItem("cityName");
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      .container {
+        display: flex;
+        overflow-y: scroll;
+        flex-direction: column;
+        padding: 24px;
+        height: 600px;
+        width: 100%;
+        scroll-snap-type: y mandatory;
+        scroll-padding: 24px;
+        border-radius: 8px;
+        gap: 12px;
+        scroll-behavior: smooth;
+        cursor: pointer;
+      }
+      .cards {
+        flex: 0 0 200px;
+
+        padding: 15px;
+
+        border-radius: 8px;
+        scroll-snap-align: start;
+
+        border: 1px solid rgb(94, 93, 93);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-delay: 0.2s;
+        transition-timing-function: ease-in-out;
+      }
+      .cards:hover {
+        background-color: rgb(209, 209, 209);
+        color: white;
+      }
+      .cards img {
+        height: 150px;
+        border-radius: 100px;
+        border: 1px black solid;
+        margin: 10px 0 2px 50px;
+      }
+      .cards p {
+        font-weight: 500;
+        font-size: 1.56rem;
+        margin: 10px 0 5px 75px;
+      }
+      .cards span {
+        color: grey;
+        font-size: 1.31rem;
+        margin: 10px 0 2px 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cards">
+        <img
+          src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          alt=""
+          srcset=""
+        />
+        <p>HARIS</p>
+        <span>dubai</span>
+        <div class="card-info">
+          <p>"I had a fantastic experience with SBH TOURS.com's tour website. Their user-friendly platform made finding tour packages a breeze. From trip planning to the journey itself, everything was seamlessly managed. I'm looking forward to traveling with them again for another memorable adventure."</p>
+                </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

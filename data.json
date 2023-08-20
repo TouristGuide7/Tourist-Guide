@@ -1,0 +1,533 @@
+ {
+      "winter": [
+        {
+          "continent": "Europe",
+          "imgUrl": "https://images.unsplash.com/photo-1530841344029-ec3ae0fa4cc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1504218727796-db522606b16f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+          "country": "Switzerland",
+          "place": "Zermatt",
+          "culture": "Swiss",
+          "smallDiscription": "Zermatt is a charming Swiss alpine village located at the foot of the iconic Matterhorn mountain.",
+          "description": "Zermatt is a charming Swiss alpine village located at the foot of the iconic Matterhorn mountain. The town is known for its world-class skiing and snowboarding opportunities in the winter, as well as its picturesque scenery. Embrace the Swiss culture, indulge in delicious cheese fondue, and experience the warm hospitality of the locals."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://images.unsplash.com/photo-1573167443175-867d91708f97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=381&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1553537316-86354ef82879?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80",
+          "country": "Austria",
+          "place": "Vienna",
+          "culture": "Austrian",
+          "smallDiscription": "Vienna, the capital of Austria, is a cultural hub with a rich history. In winter, the city is adorned with beautiful ",
+          "description": "Vienna, the capital of Austria, is a cultural hub with a rich history. In winter, the city is adorned with beautiful Christmas markets offering delightful treats and handcrafted gifts. Embrace the Austrian culture with classical music concerts, visit historic palaces like Schönbrunn, and enjoy the famous Viennese coffee culture."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://images.unsplash.com/photo-1588733103629-b77afe0425ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+          "country": "Canada",
+          "place": "Banff",
+          "culture": "Canadian",
+          "smallDiscription": "Nestled in the Canadian Rockies, Banff is a winter wonderland offering breathtaking views and outdoor adventures.",
+          "description": "Nestled in the Canadian Rockies, Banff is a winter wonderland offering breathtaking views and outdoor adventures. Enjoy skiing and snowboarding in Banff National Park, soak in the relaxing hot springs, and immerse yourself in Canadian culture by exploring the vibrant arts scene and trying the famous poutine."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://images.unsplash.com/photo-1471306224500-6d0d218be372?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1550850839-8dc894ed385a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=875&q=80",
+          "country": "USA",
+          "place": "Aspen",
+          "culture": "American",
+          "smallDiscription": "Aspen, Colorado, is a world-renowned winter destination known for its luxurious ski resorts and lively ",
+          "description": "Aspen, Colorado, is a world-renowned winter destination known for its luxurious ski resorts and lively après-ski scene. Experience American hospitality, indulge in gourmet dining, and explore the art galleries and boutiques in this charming mountain town."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://images.unsplash.com/photo-1601823984263-b87b59798b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "Japan",
+          "place": "Hokkaido",
+          "culture": "Japanese",
+          "smallDiscription": "Hokkaido, the northernmost island of Japan, offers fantastic powder snow and a plethora of winter activities.",
+          "description": "Hokkaido, the northernmost island of Japan, offers fantastic powder snow and a plethora of winter activities. Experience the unique Japanese culture by trying traditional hot spring baths (onsen), savoring delicious ramen, and witnessing the iconic snow festivals held in cities like Sapporo."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://images.unsplash.com/photo-1588944926092-c516b1216238?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1540998145333-e2eef1a9822d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1083&q=80",
+          "country": "South Korea",
+          "place": "Pyongyang",
+          "culture": "Korean",
+          "smallDiscription": "Pyongyang, the capital of North Korea, offers a distinctive cultural experience. While travel to North Korea may be ",
+          "description": "Pyongyang, the capital of North Korea, offers a distinctive cultural experience. While travel to North Korea may be restricted, visitors can join organized tours to explore monuments, museums, and enjoy cultural performances. Please be aware of the strict rules and regulations in this unique destination."
+        },
+        {
+          "continent": "Oceania",
+          "imgUrl": "https://res.cloudinary.com/simpleview/image/upload/v1687399198/clients/queenstownnz/Queenstown_Winter_Aerial_from_Bob_s_Peak_33c9a5c3-f4d1-4264-b1a7-ee4195064969.jpg",
+          "cardImg":"",
+          "country": "New Zealand",
+          "place": "Queenstown",
+          "culture": "Kiwi",
+          "smallDiscription": "Queenstown is a breathtaking resort town on New Zealand's South Island, surrounded by stunning alpine landscapes.",
+          "description": "Queenstown is a breathtaking resort town on New Zealand's South Island, surrounded by stunning alpine landscapes. Known as the 'Adventure Capital of the World,' Queenstown offers winter activities such as skiing, snowboarding, and bungee jumping. Embrace Kiwi culture by exploring Maori heritage and enjoying a traditional hangi feast."
+        },
+        {
+          "continent": "South America",
+          "imgUrl": "https://images.unsplash.com/photo-1576541572620-cbc5457517b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1617548437735-92d875423353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "Argentina",
+          "place": "Bariloche",
+          "culture": "Argentinian",
+          "smallDiscription": "San Carlos de Bariloche, commonly known as Bariloche, is a picturesque city in the Argentine Andes. In winter,",
+          "description": "San Carlos de Bariloche, commonly known as Bariloche, is a picturesque city in the Argentine Andes. In winter, it transforms into a snowy paradise, offering skiing, snowboarding, and breathtaking views of the surrounding lakes and mountains. Experience Argentinian culture by trying delectable steaks, sipping yerba mate, and enjoying tango music."
+        },
+        {
+          "continent": "Europe",
+          "cardImg":"https://images.unsplash.com/photo-1518124880777-cf8c82231ffb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=932&q=80",
+          "country": "Norway",
+          "imgUrl": "https://images.unsplash.com/photo-1475066392170-59d55d96fe51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "place": "Tromsø",
+          "culture": "Norwegian",
+          "smallDiscription": "Tromsø, located in northern Norway, is an ideal place for witnessing the Northern Lights during winter.",
+          "description": "Tromsø, located in northern Norway, is an ideal place for witnessing the Northern Lights during winter. Embrace Norwegian culture by exploring the Arctic wilderness, meeting reindeer herders, and trying traditional dishes like dried fish and reindeer meat."
+        },
+        {
+          "continent": "Europe",
+          "cardImg":"https://images.unsplash.com/photo-1550604368-082f3e94f307?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZpbmxhbmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "country": "Finland",
+          "place": "Rovaniemi",
+          "imgUrl": "https://images.unsplash.com/photo-1528155124528-06c125d81e89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=389&q=80",
+          "culture": "Finnish",
+          "smallDiscription": "Rovaniemi, the capital of Lapland in Finland, is the official home of Santa Claus. In winter, visitors can enjoy ",
+          "description": "Rovaniemi, the capital of Lapland in Finland, is the official home of Santa Claus. In winter, visitors can enjoy sleigh rides, meet Santa at the Santa Claus Village, and witness the magical Northern Lights. Experience Finnish culture through sauna sessions and indulging in hearty Finnish cuisine."
+        },
+        {
+          "continent": "North America",
+          "cardImg":"https://images.unsplash.com/photo-1546083381-2bed38b42cac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "USA",
+          "imgUrl": "https://images.unsplash.com/photo-1572816703269-bccda14a887b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=326&q=80",
+
+          "place": "Jackson Hole",
+          "culture": "American",
+          "smallDiscription": "Jackson Hole, Wyoming, is a famous winter destination in the United States. It is renowned for its challenging ski ",
+          "description": "Jackson Hole, Wyoming, is a famous winter destination in the United States. It is renowned for its challenging ski terrain and breathtaking scenery in Grand Teton National Park. Experience American hospitality, go wildlife spotting, and enjoy the cozy atmosphere of this western-style town."
+        },
+        {
+          "continent": "Asia",
+          "cardImg":"https://images.unsplash.com/photo-1517309230475-6736d926b979?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "China",
+          "imgUrl": "https://images.unsplash.com/photo-1525659664328-1bdaaca92ecf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80",
+          "place": "Harbin",
+          "culture": "Chinese",
+          "smallDiscription": "Harbin, located in northeastern China, is famous for its stunning Ice and Snow Festival held annually.",
+          "description": "Harbin, located in northeastern China, is famous for its stunning Ice and Snow Festival held annually. Visitors can admire impressive ice sculptures, go ice skating, and try winter activities in the city's parks. Experience Chinese culture by savoring delicious dumplings and exploring historic landmarks."
+        }
+      ],
+      "autumn": [
+        {
+          "continent": "Europe",
+          "imgUrl": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=820&q=80",
+          "country": "France",
+          "place": "Alsace",
+          "culture": "French",
+          "smallDiscription": "Alsace is a region in northeastern France known for its beautiful autumn foliage.",
+          "description": "Alsace is a region in northeastern France known for its beautiful autumn foliage. The region is also home to charming villages, medieval castles, and world-class wine. Visit Alsace in autumn to experience the best of what the region has to offer."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://images.unsplash.com/photo-1542931287-023b922fa89b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEphcGFufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+          "cardImg":"https://images.unsplash.com/photo-1480796927426-f609979314bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "Japan",
+          "place": "Kawazu Cherry Blossom Park",
+          "culture": "Japanese",
+          "smallDiscription": "Kawazu Cherry Blossom Park is a popular spot to see autumn foliage in Japan.",
+          "description": "Kawazu Cherry Blossom Park is a popular spot to see autumn foliage in Japan. The park is home to over 2,000 cherry blossom trees, which turn a beautiful shade of red and orange in autumn. Visit Kawazu Cherry Blossom Park in autumn to enjoy the stunning fall colors."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://www.travelandleisure.com/thmb/OiEemoNjpwQz_V80z09pxAuA34I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/03-catskill-mountains-new-york-FALLLEAFWATCH0917-8d043a0c1af544a18aff668db8fa8e6b.jpg",
+          "cardImg":"https://images.unsplash.com/photo-1588272947922-21cbc34dc3a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "USA",
+          "place": "The Catskills",
+          "culture": "American",
+          "smallDiscription": "The Catskills is a mountain range in upstate New York known for its beautiful autumn foliage.",
+          "description": "The Catskills is a mountain range in upstate New York known for its beautiful autumn foliage. The region is also home to charming villages, lakes, and waterfalls. Visit The Catskills in autumn to enjoy the stunning fall colors and the many outdoor activities the region has to offer."
+        },
+        {
+          "continent": "South America",
+          "imgUrl": "https://images.unsplash.com/photo-1508710285745-edc8137d6b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFyZ2VudGluYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "cardImg":"https://images.unsplash.com/photo-1545889238-7db7056fb932?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGFyZ2VudGluYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+          "country": "Argentina",
+          "place": "Mendoza",
+          "culture": "Argentinian",
+          "smallDiscription": "Mendoza is a wine region in Argentina known for its beautiful autumn foliage.",
+          "description": "Mendoza is a wine region in Argentina known for its beautiful autumn foliage. The region is also home to the Andes Mountains, which provide stunning backdrops for the fall colors. Visit Mendoza in autumn to enjoy the wine tasting, hiking, and other outdoor activities the region has to offer."
+        },
+        {
+          "continent": "Africa",
+          "imgUrl": "https://images.unsplash.com/photo-1576485375217-d6a95e34d043?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U291dGglMjBBZnJpY2F8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+          "cardImg":"https://images.unsplash.com/photo-1547970810-dc1eac37d174?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=636&q=80",
+          "country": "South Africa",
+          "place": "Kruger National Park",
+          "culture": "South African",
+          "smallDiscription": "Kruger National Park is a wildlife sanctuary in South Africa known for its beautiful autumn foliage.",
+          "description": "Kruger National Park is a wildlife sanctuary in South Africa known for its beautiful autumn foliage. The park is home to a variety of animals, including lions, elephants, and rhinos. Visit Kruger National Park in autumn to enjoy the stunning fall colors and the many wildlife viewing opportunities the park has to offer."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://images.unsplash.com/photo-1534313314376-a72289b6181e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1552035496-08efc7baf40e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=773&q=80",
+          "country": "Germany",
+          "place": "Black Forest",
+          "culture": "German",
+          "smallDiscription": "The Black Forest in Germany is known for its enchanting autumn landscapes.",
+          "description": "The Black Forest in Germany is known for its enchanting autumn landscapes. With its dense forests, rolling hills, and charming villages, the region comes alive with vibrant fall colors. Experience traditional German culture, indulge in Black Forest cake, and explore the stunning natural beauty."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://images.unsplash.com/photo-1556880003-4fcd06418af3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1508804052814-cd3ba865a116?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "China",
+          "place": "Zhangjiajie National Forest Park",
+          "culture": "Chinese",
+          "smallDiscription": "Zhangjiajie National Forest Park in China offers breathtaking autumn foliage and unique rock formations.",
+          "description": "Zhangjiajie National Forest Park in China offers breathtaking autumn foliage and unique rock formations. The towering sandstone pillars amidst colorful leaves create a surreal landscape. Explore the inspiration for the 'Avatar' movie, hike the trails, and immerse yourself in Chinese nature and culture."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://images.unsplash.com/photo-1572816703269-bccda14a887b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=326&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1588272947922-21cbc34dc3a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "USA",
+          "place": "New England",
+          "culture": "American",
+          "smallDiscription": "New England in the USA is famous for its stunning fall foliage, particularly in states like Vermont and Maine.",
+          "description": "New England in the USA is famous for its stunning fall foliage, particularly in states like Vermont and Maine. The region's picturesque landscapes, covered in hues of red, orange, and yellow, make for a perfect autumn getaway. Experience traditional American charm, visit apple orchards, and enjoy scenic drives."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://images.unsplash.com/photo-1569271718391-d77c02ce333f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1522521612083-730fb19791c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+          "country": "Scotland",
+          "place": "Scottish Highlands",
+          "culture": "Scottish",
+          "smallDiscription": "The Scottish Highlands offer rugged beauty and stunning autumn colors.",
+          "description": "The Scottish Highlands offer rugged beauty and stunning autumn colors. The vast moorlands, shimmering lochs, and historic castles are surrounded by foliage that turns the landscapes into a golden wonderland. Immerse yourself in Scottish traditions, enjoy whisky tasting, and explore the wild landscapes."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://images.unsplash.com/photo-1570191913384-7b4ff11716e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1548115184-bc6544d06a58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+          "country": "South Korea",
+          "place": "Naejangsan National Park",
+          "culture": "Korean",
+          "smallDiscription": "Naejangsan National Park in South Korea is renowned for its vibrant autumn foliage and waterfalls.",
+          "description": "Naejangsan National Park in South Korea is renowned for its vibrant autumn foliage and waterfalls. The colorful leaves create a stunning contrast against the backdrop of serene waterfalls and temples. Experience Korean traditions, try local cuisine, and enjoy the serene beauty of the park."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://images.unsplash.com/photo-1602200504944-fb31ada72ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1604880050467-6ecc9ec909b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80",
+          "country": "USA",
+          "place": "Vermont",
+          "culture": "American",
+          "smallDiscription": "Vermont is known for its stunning fall foliage, particularly in the Northeast Kingdom region.",
+          "description": "Vermont is known for its stunning fall foliage, particularly in the Northeast Kingdom region. The region's rolling hills, covered in hues of red, orange, and yellow, make for a perfect autumn getaway. Experience traditional New England charm, visit apple orchards, and enjoy scenic drives."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://images.unsplash.com/photo-1527974361724-67fd5ebfd6d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+          "cardImg":"https://images.unsplash.com/photo-1625904835711-fa25795530e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80",
+          "country": "Japan",
+          "place": "Arashiyama Bamboo Grove",
+          "culture": "Japanese",
+          "smallDiscription": "Arashiyama Bamboo Grove is a popular spot to see autumn foliage in Japan.",
+          "description": "Arashiyama Bamboo Grove is a popular spot to see autumn foliage in Japan. The bamboo forest is bathed in golden light during autumn, creating a magical atmosphere. Visit Arashiyama Bamboo Grove in autumn to experience the beauty of nature."
+        }
+      ],
+      "spring": [
+        {
+          "continent": "Europe",
+          "imgUrl": "https://www.visa.mn/content/dam/VCOM/regional/ap/images/travel-with-visa/paris/marquee-travel-paris-800x450.jpg",
+          "cardImg":"",
+          "country": "France",
+          "place": "Paris",
+          "culture": "French",
+          "smallDiscription": "Paris, the capital of France, is known for its romantic springtime atmosphere.",
+          "description": "Paris, the capital of France, is known for its romantic springtime atmosphere. Enjoy leisurely strolls along the Seine River, visit iconic landmarks like the Eiffel Tower and Notre-Dame Cathedral, and indulge in delightful pastries and café culture."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://media.tacdn.com/media/attractions-content--1x-1/10/29/d5/01.jpg",
+          "cardImg":"",
+          "country": "Japan",
+          "place": "Kyoto",
+          "culture": "Japanese",
+          "smallDiscription": "Kyoto, Japan, is famous for its cherry blossom season in spring.",
+          "description": "Kyoto, Japan, is famous for its cherry blossom season in spring. Witness the breathtaking sight of cherry blossoms (sakura) in full bloom at historic temples, shrines, and traditional gardens."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://www.rd.com/wp-content/uploads/2020/07/GettyImages-975466384-e1595621246508.jpg",
+          "cardImg":"",
+          "country": "USA",
+          "place": "Washington, D.C.",
+          "culture": "American",
+          "smallDiscription": "Washington, D.C., in the USA, is renowned for its cherry blossom festival.",
+          "description": "Washington, D.C., in the USA, is renowned for its cherry blossom festival in spring. The National Cherry Blossom Festival attracts visitors to the iconic Tidal Basin, where thousands of cherry trees bloom in stunning shades of pink and white."
+        },
+        {
+          "continent": "South America",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/1200px-Cidade_Maravilhosa.jpg",
+          "cardImg":"",
+          "country": "Brazil",
+          "place": "Rio de Janeiro",
+          "culture": "Brazilian",
+          "smallDiscription": "Rio de Janeiro, Brazil, offers a vibrant and lively spring experience.",
+          "description": "Rio de Janeiro, Brazil, offers a vibrant and lively spring experience. Enjoy the famous Copacabana and Ipanema beaches, visit the iconic Christ the Redeemer statue, and immerse yourself in Brazilian music and dance."
+        },
+        {
+          "continent": "Africa",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80UJdvtmc6jS7v8b4UC3YvYDzRNrfkEyfdA91XxiYhYkkjjBdCH2Bj3nE7UNWbIc6emCzQDbCU4uqSqCjb5qvEsQprONYzSZOGEmQ5AaVtCUNXeQjupRVKbMZzuLr5qRb3PcSvu9rYjcXrHwQQFOIDOoozFadzgaYeptU__gDDw53kV2IOPzFeq2A0=w250-h200-p",
+          "cardImg":"",
+          "country": "Morocco",
+          "place": "Marrakech",
+          "culture": "Moroccan",
+          "smallDiscription": "Marrakech, Morocco, is a sensory delight with its bustling markets and colorful gardens.",
+          "description": "Marrakech, Morocco, is a sensory delight with its bustling markets and colorful gardens. Experience the vibrant medina, visit the enchanting Jardin Majorelle, and savor Moroccan cuisine."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83JFq5RYX4nPHb_h-oQNUM6lXiqMPfgpYB0wUAShToITzdc5Z_9rKAaEJSOg8Qw82xRiwr_HQrZme2SOCvopmeAAiY-D9Sq1XbLCiPkN3cr85Ck4miP3k2_GSOh_Ta95hgaWfdNL95n9D-4PMRh75g=w250-h200-p",
+          "cardImg":"",
+          "country": "Netherlands",
+          "place": "Keukenhof Gardens",
+          "culture": "Dutch",
+          "smallDiscription": "Keukenhof Gardens in the Netherlands is renowned for its stunning spring flower displays.",
+          "description": "Keukenhof Gardens in the Netherlands is renowned for its stunning spring flower displays. Experience the colorful tulip fields, explore themed gardens, and immerse yourself in Dutch floral traditions."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr825MVF1ZzdskwnZ5w2I080dVCUA6SZ1lpIr_1pzEmYCyTz9O5J1HOmc40HSS6QUATUQk-9FNLAwZFwFLazk2JZR9Y9yI0SbnlU_DFss1ssWxOa-NFDKw6RbdPTSqNdPNFCFo584dwOmp50N181J=w250-h200-p",
+          "cardImg":"",
+          "country": "Japan",
+          "place": "Tokyo",
+          "culture": "Japanese",
+          "smallDiscription": "Tokyo, Japan, comes alive with cherry blossoms and spring festivals.",
+          "description": "Tokyo, Japan, comes alive with cherry blossoms and spring festivals. Enjoy hanami (flower viewing) picnics under cherry blossom trees, explore futuristic neighborhoods, and embrace Japanese pop culture."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83T299MWNnaqlT59hqDYzSd__JXuXymfPzAFcUKDVAedSelyfXnpYuDJy5vyDgD7DJCJkt9bsQgxbsELi9eftzRvfReoDOs8YiQRGPDi6jJW3d3RbojOvU9eRhxC6jbAc-5hHp1ebtLaMFIQAYuFd45yekJeGJXWu6ycQI5U8ZDmXctZ8U=w250-h200-p",
+          "cardImg":"",
+          "country": "USA",
+          "place": "Miami",
+          "culture": "American",
+          "smallDiscription": "Miami, Florida, offers a lively and colorful spring break experience.",
+          "description": "Miami, Florida, offers a lively and colorful spring break experience. Enjoy the vibrant art scene, relax on the famous beaches, and explore the diverse cultural neighborhoods."
+        },
+        {
+          "continent": "South America",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr829UQje1soW250jyGJgKLl-YSkxI_PpjgTKSO1rnBZlU32cp2GNUyo-EkwnkPbpbjILuCacAwfnVIbZUrsmZ3lkKTfGjuC6dKtvf_PbeKm1DdMjLSo9I94b6UcUU8LQmRax679kizZNvjKrP-z85aPnl6DYZ3j3k4ViEloeOEovcByyAONcnzLKaA0Wt34ekwz6MAYR=w250-h200-p",
+          "cardImg":"",
+          "country": "Argentina",
+          "place": "Buenos Aires",
+          "culture": "Argentinian",
+          "smallDiscription": "Buenos Aires, Argentina, comes alive with tango music and cultural festivities in spring.",
+          "description": "Buenos Aires, Argentina, comes alive with tango music and cultural festivities in spring. Explore historic neighborhoods, attend tango shows, and enjoy traditional Argentinian cuisine."
+        },
+        {
+          "continent": "Africa",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81WUXkiLGG7_gZ47DRjtyVdV56oGZqKvyz1SKHQ_TgKoddAKwrefahLcze_tIqQ93Hz5JaLTO6TM48qKYlfAfG3RnDVNPsEanDySVIClGX9bq3LMXO3QvaGJdQfaAcu0BIAfMfwCZr9t-w_pwvZ7bgw-XhCHdyY5ZLTSzTB4PlsdmyfY1LB-wuFgI9KROIl2JD-10Zwk2ZcvfnF8-QR6c3rwrdWdeyrouMMnM25_TawZM5RAskEruZK37yY8-OQjRtiVXBvkgqNs9yecVaBET4f7wA=w250-h200-p",
+          "cardImg":"",
+          "country": "South Africa",
+          "place": "Cape Town",
+          "culture": "South African",
+          "smallDiscription": "Cape Town, South Africa, offers a stunning springtime experience with its diverse landscapes.",
+          "description": "Cape Town, South Africa, offers a stunning springtime experience with its diverse landscapes. Explore Table Mountain, visit the Kirstenbosch National Botanical Garden, and enjoy the vibrant city atmosphere."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81qvOMPEhr0h4wzaNPeloHxLyz-TN3FKSgHUI6X0FOo-ZqgFTTL-DRyfQnM9rHNsI2pnUow4LOzF_A7RFUUIkikWisJk-U5Q7e-L_3EsgYYePg3grvYN56bkAotqTJKVlQ2jHRGfacz0Z94xQCXzS4Rh5lPqU0EE_CdDycG=w250-h200-p",
+          "cardImg":"",
+          "country": "Czech Republic",
+          "place": "Prague",
+          "culture": "Czech",
+          "smallDiscription": "Prague, Czech Republic, showcases its historic charm in the spring season.",
+          "description": "Prague, Czech Republic, showcases its historic charm in the spring season. Explore the cobblestone streets of the Old Town, visit Prague Castle, and enjoy picturesque views of the Vltava River."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83JGcMOD_NuO_4RNeW_ffBMMAI5-KGkQ_w8T65SZ8druW6TTqjrTtRindkvbC90ZH6dS3bYDqUOvW3-0fEeoGmO7_IYKuA0_x5-L-PPzysKo_wTqV6ThrRznzm7S8NxDInOwPMJw8TsZFch34USwJEFewgIZDL--Yh5Zw=w250-h200-p",
+          "cardImg":"",
+          "country": "South Korea",
+          "place": "Seoul",
+          "culture": "Korean",
+          "smallDiscription": "Seoul, South Korea, celebrates spring with cherry blossoms and cultural festivals.",
+          "description": "Seoul, South Korea, celebrates spring with cherry blossoms and cultural festivals. Enjoy cherry blossom viewing at popular spots like Yeouido Park, experience traditional Korean rituals, and explore the vibrant cityscape."
+        }
+      ],
+      "summer": [
+        {
+          "continent": "Europe",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81Rs9wRmbz5CPH96MGGLH0tKDX4aLpp4As8ix3VYIHhrjl3ORuiVthdLFxs-yOdeueVSXIOPDeVNfF_AFalOcSim470fbodyF-mJ7KKNWgQf-mTTQLhjHyCueI1qrGg=w250-h200-p",
+          "cardImg":"",
+          "country": "France",
+          "place": "French Riviera",
+          "culture": "French",
+          "smallDiscription": "The French Riviera offers a glamorous and sunny summer getaway.",
+          "description": "The French Riviera offers a glamorous and sunny summer getaway. Relax on the luxurious beaches, explore charming coastal towns, and indulge in delicious Mediterranean cuisine."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83JyE4QmwaCJ_xx0acDLMjXOykZZxVW0S3kxHtah8SL0PEOY7hum5a0l46rsAgnxBGLndeWADGXUlZZly-CIcrWtenmbOuuVQJJd2sQEyZF2-pjJEb68GCr46SJnMc6Hia36jOHNJ7H=w250-h200-p",
+          "cardImg":"",
+          "country": "Indonesia",
+          "place": "Bali",
+          "culture": "Balinese",
+          "smallDiscription": "Bali is a tropical paradise known for its beautiful beaches and vibrant culture.",
+          "description": "Bali is a tropical paradise known for its beautiful beaches and vibrant culture. Enjoy surfing, relax on stunning beaches, and experience traditional Balinese ceremonies."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83hmBp0DQtcoh_EgE_J0WepeGUuZpDg-RBk0YQp63f--meUkJL56BUQLUy0cba27UiqcwExyoE5ZDrTj-LJlBc0VMF_8mJPtFL3dlxOgS6eTEfq9BsbpKqUWyMsYB1d_XojHneC70EqmX09Ha1Tuzi-HErRPmhp=w250-h200-p",
+          "cardImg":"",
+          "country": "USA",
+          "place": "Hawaii",
+          "culture": "Hawaiian",
+          "smallDiscription": "Hawaii offers a perfect blend of relaxation and adventure during the summer.",
+          "description": "Hawaii offers a perfect blend of relaxation and adventure during the summer. Enjoy water activities, hike to stunning viewpoints, and immerse yourself in the unique Hawaiian culture."
+        },
+        {
+          "continent": "South America",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81zOEOYOzlzBVaG8UAW5gR3i20rHWMuY1wn9IcBMP5JXkFfhlRrFwd4OtN_XnpwzujtXALGKdO-_bP9oZb0aI71I4IpeDSzfDb0R83ddVWhS2-XymU2GctbniKXm5VNoZeKMHkOPTSQ1iKA2512DNcQwMj5PbL7xPxhmJms2hDH__2WCCuV2-2_acgAI_ZK7z0=w250-h200-p",
+          "cardImg":"",
+          "country": "Brazil",
+          "place": "Rio de Janeiro",
+          "culture": "Brazilian",
+          "smallDiscription": "Rio de Janeiro, Brazil, is famous for its lively summer atmosphere.",
+          "description": "Rio de Janeiro, Brazil, is famous for its lively summer atmosphere. Enjoy the vibrant beaches, join in on samba festivals, and take in the stunning views from Sugarloaf Mountain."
+        },
+        {
+          "continent": "Africa",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr80KDwuPMEehY3JyNoudY-eM1EXV55WL-sMPRfpIbukTBUa1_AmdpOHppr5SnS-TTYE9Fyxfn9PRcYLf2zZmhDY2gI5lKh6vhreb4Aus6i6OXD3NpiVA8oZ6Sfj2ckd4EEshJKJ_Ay5fLcfHQpAxAyezhjLEBV7YBqGTsfBe5zj6CimE=w250-h200-p",
+          "cardImg":"",
+          "country": "South Africa",
+          "place": "Cape Town",
+          "culture": "South African",
+          "smallDiscription": "Cape Town, South Africa, offers diverse landscapes and a lively summer vibe.",
+          "description": "Cape Town, South Africa, offers diverse landscapes and a lively summer vibe. Enjoy the beaches, visit Table Mountain, and explore the historic waterfront."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr806eRllfojTcCyC2PoH-ohtwucLfyHbPPKn8go4PDIfdLD5riA3RvUmSYA3CuRXLr1dOTzx42gg9gqc_GzlUOSbfVAjHjXXF5gLF9tkIy0Gta6Pga9SqBWyaftcHR3Rk35MCeJAz4hk3rNFeQxfhfR3du3Q-vZUq1MMHiA=w250-h200-p",
+          "cardImg":"",
+          "country": "Spain",
+          "place": "Ibiza",
+          "culture": "Spanish",
+          "smallDiscription": "Ibiza is known for its vibrant nightlife and beautiful Mediterranean beaches.",
+          "description": "Ibiza is known for its vibrant nightlife and beautiful Mediterranean beaches. Enjoy beach parties, explore historic sites, and experience the local music scene."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr82UWp5lvzuv-Eqlh0g13Tkgo1zwIDEceNcR3vWtiXjauagLEWsJycxrk_Awhxrts1DweY3qIx0K8YaUYYgkUwQZ12szmeA7V3L8C0GEQjwjLE_l5XkoWwpHbdf8SCzn6lrmRL15pOyhPbH9C3eCxg1q7wMMjA4Htwda78QHddfuoft4WTpI8I-gP4AzFG9Go86474KNYgrRbdG36WfDqVqIi-O54UDtPloIN09mOUH_=w250-h200-p",
+          "cardImg":"",
+          "country": "Thailand",
+          "place": "Phuket",
+          "culture": "Thai",
+          "smallDiscription": "Phuket, Thailand, offers stunning beaches and a vibrant summer atmosphere.",
+          "description": "Phuket, Thailand, offers stunning beaches and a vibrant summer atmosphere. Relax on beautiful beaches, explore nearby islands, and experience Thai hospitality."
+        },
+        {
+          "continent": "North America",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr831kPU09w_XtRI0SpxHsTY4XwtKmoPY4-phHT6sCaajIzANYGpceI2GvIjAfmNGm-mRbZbP0hiiv69Ku8mJqHeNSVvUCVlk_CWpQHzz0l4wuipcjWzcXESRwFxfA2pbn-rZ1uhm0Nwx7ojR3MO3DknFv9HjlD5dFpE1vX--LCIF9A=w250-h200-p",
+          "cardImg":"",
+          "country": "USA",
+          "place": "Lake Tahoe",
+          "culture": "American",
+          "smallDiscription": "Lake Tahoe, USA, is a popular summer destination for outdoor enthusiasts.",
+          "description": "Lake Tahoe, USA, is a popular summer destination for outdoor enthusiasts. Enjoy water activities, hike in the Sierra Nevada mountains, and relax in the scenic alpine surroundings."
+        },
+        {
+          "continent": "South America",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr803vymHNdYztd1EaA0Xr5bJDSxAvAsn3Uq39AmFr1GbOiAJbcVYSx4ThywGW7sBUhgie7cMUzLynw7qDIDNKMupYwRC7tZQQ-V1mgiK2zAbBDtluWM=w250-h200-p",
+          "cardImg":"",
+          "country": "Brazil",
+          "place": "Natal",
+          "culture": "Brazilian",
+          "smallDiscription": "Natal, Brazil, offers beautiful beaches and unique sand dunes to explore.",
+          "description": "Natal, Brazil, offers beautiful beaches and unique sand dunes to explore. Enjoy buggy rides on the dunes, relax on the beaches, and experience Brazilian culture."
+        },
+        {
+          "continent": "Africa",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83EetfAPawuA6ewKwLFCXjn1bNvwOI8TUo3AFLvImdUAisPQHewasODXRma9ezguUXgTFmWsIZjjvhm2nM0aAnaYtyqT33_n8VKrbaEUu7x2e8SzTtGUyF8-iJBIN3tJ3DUP7Lf2bjiLX-03DIroqBdNljD-V7Bv5bLxH3wycDdjpMrg49wgOFAlBk83mfqrOQGcvTHN9NWoX-oODUvg822POqxUia4txJIFT4mFCR52FIRpEg-iQbhRG_T=w250-h200-p",
+          "cardImg":"",
+          "country": "Kenya",
+          "place": "Diani Beach",
+          "culture": "Kenyan",
+          "smallDiscription": "Diani Beach, Kenya, offers stunning beaches and diverse marine life.",
+          "description": "Diani Beach, Kenya, offers stunning beaches and diverse marine life. Enjoy water sports, go snorkeling or scuba diving, and experience the rich local culture."
+        },
+        {
+          "continent": "Europe",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr83EetfAPawuA6ewKwLFCXjn1bNvwOI8TUo3AFLvImdUAisPQHewasODXRma9ezguUXgTFmWsIZjjvhm2nM0aAnaYtyqT33_n8VKrbaEUu7x2e8SzTtGUyF8-iJBIN3tJ3DUP7Lf2bjiLX-03DIroqBdNljD-V7Bv5bLxH3wycDdjpMrg49wgOFAlBk83mfqrOQGcvTHN9NWoX-oODUvg822POqxUia4txJIFT4mFCR52FIRpEg-iQbhRG_T=w250-h200-p",
+          "cardImg":"",
+          "country": "United Kingdom",
+          "place": "Cornwall",
+          "culture": "British",
+          "smallDiscription": "Cornwall, UK, is known for its picturesque landscapes and beautiful coastline.",
+          "description": "Cornwall, UK, is known for its picturesque landscapes and beautiful coastline. Enjoy sandy beaches, explore historic sites, and indulge in traditional British cuisine."
+        },
+        {
+          "continent": "Asia",
+          "imgUrl": "https://lh3.googleusercontent.com/bip/APOwr81SuXiPGgUKpEe5OE71hhj28XnGy0hE49aZ9MYAGp7nigfz3yyd689K8JxMMmnUF2k19094EkgG4JVuAwXOlTQHGxXIXRkny_h9P39ccXFrWkZmzC8rggDs5ONDMPX3iPAGXG9SjcG4KqjUIQS7tdrvezldvI1T52YqAsvVjb98q4HBpMj58AwW4H3OIF1fWSS9wjvBpWnCZGAnmqgN2ITJEdXKXfV8kURk1rgHmTgdvT8=w250-h200-p",
+          "cardImg":"",
+          "country": "Turkey",
+          "place": "Antalya",
+          "culture": "Turkish",
+          "smallDiscription": "Antalya, Turkey, offers a blend of history, beaches, and summer activities.",
+          "description": "Antalya, Turkey, offers a blend of history, beaches, and summer activities. Explore ancient ruins, relax on the beaches, and enjoy the vibrant local culture."
+        }
+      ],
+        "famous_places": [
+          {
+            "name": "Eiffel Tower",
+            "cardImg":"",
+            "country": "France",
+            "description": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris. It is one of the most recognizable structures in the world and a symbol of France.",
+            "category": "Landmark",
+            "imgUrl": "https://www.toureiffel.paris/en"
+          },
+          {
+            "name": "Great Wall of China",
+            "cardImg":"",
+            "country": "China",
+            "description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China.",
+            "category": "Historical Site",
+            "imgUrl": "http://www.chinagreatwall.org/"
+          },
+          {
+            "name": "Machu Picchu",
+            "cardImg":"",
+            "country": "Peru",
+            "description": "Machu Picchu is an ancient Incan city located in the Andes Mountains. It's known for its well-preserved ruins, stunning architecture, and panoramic views.",
+            "category": "Archaeological Site",
+            "imgUrl": "https://www.machupicchu.gob.pe/"
+          },
+          {
+            "name": "Pyramids of Giza",
+            "cardImg":"",
+            "country": "Egypt",
+            "description": "The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt. The Great Pyramid is the largest and most famous of the pyramids and is one of the Seven Wonders of the Ancient World.",
+            "category": "Archaeological Site",
+            "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
+          },
+          {
+            "name": "Pyramids of Giza",
+            "cardImg":"",
+            "country": "Egypt",
+            "description": "The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt. The Great Pyramid is the largest and most famous of the pyramids and is one of the Seven Wonders of the Ancient World.",
+            "category": "Archaeological Site",
+            "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
+          }
+        ]
+    }
