@@ -78,18 +78,15 @@ header {
   gap: 30px 16px;
 }
 .cardItem {
+  box-shadow: 0px 0px 20px 1px rgba(128, 128, 128, 0.308);
   position: relative;
   border-radius: 24px;
+  border-top: 1px solid gray;
   font-size: 18px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
   transition: all 0.3s ease;
   overflow: hidden;
 }
-.card-image {
-  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
-}
+
 .card-image,
 .card-image img {
   width: 100%;
@@ -305,7 +302,7 @@ header {
     font-family: "Poppins";
   }
   .cardText {
-    margin-top: 2rem;
+    margin-top: -7rem;
   }
   .gallery {
     display: grid;

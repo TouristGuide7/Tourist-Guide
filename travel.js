@@ -1,48 +1,46 @@
-function user(){
-    const gName = document.getElementById("userName")
-    const gCity = document.getElementById("userCity")
-    let localName = localStorage.getItem("userName")
-    let localCity = localStorage.getItem("cityName")
-    gName.innerHTML += localName
-    gCity.innerHTML += localCity
-  }
-  user()
-  const travelCity = document.querySelectorAll(".localCity")
-const countryImage = document.querySelectorAll(".countryImage")
+function buttonRender(num, place){
+  localStorage.setItem("numValue" , num)
+  localStorage.setItem("placeValue" , place)
+}
+function user() {
+  const gName = document.getElementById("userName");
+  const gCity = document.getElementById("userCity");
+  let localName = localStorage.getItem("userName");
+  let localCity = localStorage.getItem("cityName");
+  gName.innerHTML += localName;
+  gCity.innerHTML += localCity;
+}
+user();
+const travelCity = document.querySelectorAll(".localCity");
+const countryImage = document.querySelectorAll(".countryImage");
+let mainCardBtnValue = document.getElementById("cardMainButton");
 
-let mainCardBtnValue = document.getElementById("cardMainButton")
+const touristAPI = "data.json";
+async function newFunction() {
+  const response = await fetch(touristAPI);
+  const data = await response.json();
 
-
-
-const touristAPI = "data.json"
-async function newFunction(){
-  const response = await fetch(touristAPI)
-  const data = await response.json()
-
-if(mainCardBtnValue.value = "winter"){
-  for(let i = 0 ; i < travelCity.length; i++){
-    travelCity[i].innerHTML = data.winter[i].country
-    countryImage[i].src = data.winter[i].imgUrl
+  if (mainCardBtnValue.value == "winter") {
+    for (let i = 0; i < travelCity.length; i++) {
+      travelCity[i].innerHTML = data.winter[i].country;
+      countryImage[i].src = data.winter[i].imgUrl;
+    }
+  } else if (mainCardBtnValue.value == "autumn") {
+    for (let i = 0; i < travelCity.length; i++) {
+      travelCity[i].innerHTML = data.autumn[i].country;
+      countryImage[i].src = data.autumn[i].imgUrl;
+    }
+  } else if (mainCardBtnValue.value == "spring") {
+    for (let i = 0; i < travelCity.length; i++) {
+      travelCity[i].innerHTML = data.spring[i].country;
+      countryImage[i].src = data.spring[i].imgUrl;
+    }
+  } else if (mainCardBtnValue.value == "summer") {
+    for (let i = 0; i < travelCity.length; i++) {
+      travelCity[i].innerHTML = data.summer[i].country;
+      countryImage[i].src = data.summer[i].imgUrl;
+    }
   }
 }
-else if(mainCardBtnValue.value = "autumn"){
-  for(let i = 0 ; i < travelCity.length; i++){
-    travelCity[i].innerHTML = data.autumn[i].country
-    countryImage[i].src = data.autumn[i].imgUrl
-  }
-}
-else if(mainCardBtnValue.value = "spring"){
-  for(let i = 0 ; i < travelCity.length; i++){
-    travelCity[i].innerHTML = data.spring[i].country
-    countryImage[i].src = data.spring[i].imgUrl
-  }
-}
-else if(mainCardBtnValue.value = "summer"){
-  for(let i = 0 ; i < travelCity.length; i++){
-    travelCity[i].innerHTML = data.summer[i].country
-    countryImage[i].src = data.summer[i].imgUrl
-  }
-}
-}
 
-newFunction()
+newFunction();
