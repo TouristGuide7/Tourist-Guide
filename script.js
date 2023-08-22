@@ -77,9 +77,6 @@ const famousDescription = document.getElementById("famousDescription")
     famousCountry[i].innerHTML = data.famous_places[i].country
     famousImg.src = data.famous_places[5].imgUrl
     famousDescription.innerHTML = data.famous_places[5].description
-
-
-
   }
 }
 

@@ -491,40 +491,45 @@
         "famous_places": [
           {
             "name": "Eiffel Tower",
-            "cardImg":"",
+            "cardImg":"https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
             "country": "France",
+            "smallDiscription":"The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris.",
             "description": "The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris. It is one of the most recognizable structures in the world and a symbol of France.",
             "category": "Landmark",
             "imgUrl": "https://www.toureiffel.paris/en"
           },
           {
             "name": "Great Wall of China",
-            "cardImg":"",
+            "cardImg":"https://images.unsplash.com/photo-1608037521244-f1c6c7635194?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
             "country": "China",
+            "smallDiscription":"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials,",
             "description": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China.",
             "category": "Historical Site",
             "imgUrl": "http://www.chinagreatwall.org/"
           },
           {
             "name": "Machu Picchu",
-            "cardImg":"",
+            "cardImg":"https://images.unsplash.com/photo-1539706925993-615886ddcadf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
             "country": "Peru",
+            "smallDiscription":"Machu Picchu is an ancient Incan city located in the Andes Mountains.",
             "description": "Machu Picchu is an ancient Incan city located in the Andes Mountains. It's known for its well-preserved ruins, stunning architecture, and panoramic views.",
             "category": "Archaeological Site",
             "imgUrl": "https://www.machupicchu.gob.pe/"
           },
           {
             "name": "Pyramids of Giza",
-            "cardImg":"",
+            "cardImg":"https://images.unsplash.com/photo-1628503218283-6ddeac69dfea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
             "country": "Egypt",
+            "smallDiscription":"The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt.",
             "description": "The Pyramids of Giza are ancient tombs built for the pharaohs of Egypt. The Great Pyramid is the largest and most famous of the pyramids and is one of the Seven Wonders of the Ancient World.",
             "category": "Archaeological Site",
             "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
           },
           {
             "name": "Statue of Liberty",
-            "cardImg":"",
+            "cardImg":"https://images.unsplash.com/photo-1583707225662-125fe69e6656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
             "country": "Statue of Liberty",
+            "smallDiscription":"The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor.",
             "description": "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor. It was a gift from France to the United States and is a symbol of freedom and democracy",
             "category": "Archaeological Site",
             "imgUrl": "http://www.sca-egypt.org/eng/SITE_Giza_Pyramids.htm"
@@ -535,6 +540,7 @@
             "lcountry": "Khyber Pakhtunkhwa, Pakistan",
             "description": "Naran is a popular tourist destination in northern Pakistan, known for its stunning natural beauty. It's surrounded by picturesque landscapes, lakes, and lush green valleys, making it a favorite spot for trekking and outdoor activities.",
             "category": "Tourist Destination",
+            "smallDiscription":"Naran is a popular tourist destination in northern Pakistan, known for its stunning natural beauty. ",
             "imgUrl": "https://images.unsplash.com/photo-1605447610363-4f4f04760114?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80"
           }
         ]
