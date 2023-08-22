@@ -13,7 +13,6 @@ body {
 }
 header {
   background: url(https://images.unsplash.com/photo-1692381219668-579ad4187adb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=759&q=80);
-  background-repeat: no-repeat;
   background-size: cover;
   height: 60rem;
   color: #ffffff;
@@ -232,12 +231,13 @@ header .item1 {
 .famousPlace {
   display: flex;
   flex-direction: row;
-  margin: 6rem 16px;
+  margin: 6rem 0;
+  padding: 16px;
   width: 100%;
   color: #000;
 }
 .item4 img {
-  width: 980px;
+  width: 100%;
   height: 600px;
   z-index: 0;
   border-radius: 30px;
@@ -401,11 +401,11 @@ header .item1 {
     font-family: "Poppins", sans-serif;
   }
   .famousPlace {
-    padding: 16px;
     flex-direction: column;
     gap: 8px 0;
     width: 100%;
     color: #000;
+
   }
   .item4 img {
     width: 100%;
@@ -415,10 +415,9 @@ header .item1 {
   }
   .item3 {
     width: 100%;
-    padding: 16px;
   }
   .item4 {
-    width: 95%;
+    width: 100%;
     text-align: center;
   }
   .cityCard {
@@ -442,6 +441,7 @@ header .item1 {
 }
 
 @media (max-width: 600px) {
+
   .promotion {
     font-size: 36px;
   }
@@ -466,7 +466,7 @@ header .item1 {
   }
   .item4 img {
     width: 100%;
-    height: 600px;
+    height: 500px;
     z-index: 0;
     border-radius: 30px;
   }
@@ -474,7 +474,7 @@ header .item1 {
     width: 100%;
   }
   .item4 {
-    width: 95%;
+    width: 100%;
     text-align: center;
   }
   .cityCardMain {
@@ -510,7 +510,7 @@ header .item1 {
     border-radius: 24px;
   }
   .city a {
-    font-size: 80px;
+    font-size: 58px;
   }
 }
 

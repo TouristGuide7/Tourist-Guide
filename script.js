@@ -73,7 +73,6 @@ async function newFunction(){
   }
 const famousImg = document.getElementById("famousImg")
 const famousDescription = document.getElementById("famousDescription")
-console.log(famousDescription);
   for(let i= 0; i < famousCountry.length; i++){
     famousCountry[i].innerHTML = data.famous_places[i].country
     famousImg.src = data.famous_places[5].imgUrl
