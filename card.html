@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tourist_Card</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assists/WEB ICON.png">
-    
+    <link rel="icon" href="assists/WEB ICON.png" />
+
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-    crossorigin="anonymous"
-  />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -21,10 +21,18 @@
   <body>
     <div class="main-container">
       <header>
-        <nav class="navbar navbar-expand-lg fs-5 sticky-top bg-white bg-opacity-25">
+        <nav
+          class="navbar navbar-expand-lg fs-5 sticky-top bg-white bg-opacity-25"
+        >
           <div class="container-fluid">
-            <a class="navbar-brand" href="Tourist_Winter.html"><img src="assists/NAVBAR.png" alt="" srcset="" ; style="height: 50px;"></a>
-  
+            <a class="navbar-brand" href="Tourist_Winter.html"
+              ><img
+                src="assists/NAVBAR.png"
+                alt=""
+                srcset=""
+                ;
+                style="height: 50px"
+            /></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -37,12 +45,14 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ul me-auto mb-2 mb-lg-0">
-              </ul>
+              <ul class="navbar-nav ul me-auto mb-2 mb-lg-0"></ul>
               <div class="d-flex" role="search">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Tourist_Winter.html"
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="Tourist_Winter.html"
                       >Explore</a
                     >
                   </li>
@@ -58,14 +68,14 @@
                   <li class="nav-item">
                     <a class="nav-link" href="reveiw.html">Review</a>
                   </li>
-                  
+
                   <li class="nav-item">
-                    <a class="nav-link user  active" id="userName"
+                    <a class="nav-link user active" id="userName"
                       ><i class="fa-solid fa-user me-2"></i
                     ></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link user  active" id="userCity"
+                    <a class="nav-link user active" id="userCity"
                       ><i class="fa-solid fa-city me-2"></i
                     ></a>
                   </li>
@@ -75,19 +85,21 @@
           </div>
         </nav>
         <img
-        class="cardMainImg"
-        id="mainCardImg"
-        src="https://images.unsplash.com/photo-1535069440609-10482a584e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=817&q=80"
-        alt=""
-      />
+          class="cardMainImg"
+          id="mainCardImg"
+          src="https://images.unsplash.com/photo-1535069440609-10482a584e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=817&q=80"
+          alt=""
+        />
       </header>
       <div class="mainCardContent">
         <div class="page">
           <div class="pagetop">
-          <p class="page-heading Country" id="country">ITALY</p>
-          <p class="page-d" id="page-d">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-        <hr>
+            <p class="page-heading Country" id="country">ITALY</p>
+            <p class="page-d" id="page-d">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <hr />
           <p class="page-heading-2">AMAZING EXPERIENCES</p>
           <p class="page-matter" id="description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -155,7 +167,6 @@
                 </p>
               </div>
             </div>
-  
           </div>
           <p class="page-heading-2">Tour Map</p>
           <iframe
@@ -220,8 +231,8 @@
             euismod nisi porta lorem mollis. Morbi tristique senectus et netus.
             Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien
             faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper
-            velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius
-            duis at consectetur lorem.
+            velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum
+            varius duis at consectetur lorem.
           </div>
           <div class="city-details">
             <p>
@@ -247,16 +258,24 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
     <div class="feedback">
       <div class="text">
         <p class="touch">Keep in touch</p>
         <p class="travel">travel with us</p>
       </div>
-      <div class="submit">
-        <input class="email" placeholder="Email Address" type="text" />
-        <button type="submit" class="button1">Submit</button>
-      </div>
+      <form class="submit">
+        <input
+          class="email"
+          required
+          id="email"
+          placeholder="Email Address"
+          type="text"
+        />
+        <button type="submit" onclick="validate()" class="button1">
+          Submit
+        </button>
+      </form>
     </div>
     <footer class="text-center text-lg-start bg-white text-muted">
       <section class="">
@@ -264,19 +283,25 @@
           <div class="row mt-3">
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">
-              </i><img src="assists/FOOTER.png" alt="" srcset="" ; style="height: 150px;">
-            </h6>
-            <p>Beyond destinies, to destinations,
-              Crafting memories - Bharosa Travel.
-              World's beauty, city's exploration intent,
-              Journeys hold memories, not just notes.
-            </p>
+                <img
+                  src="assists/FOOTER.png"
+                  alt=""
+                  srcset=""
+                  ;
+                  style="height: 150px"
+                />
+              </h6>
+              <p>
+                Beyond destinies, to destinations, Crafting memories - Bharosa
+                Travel. World's beauty, city's exploration intent, Journeys hold
+                memories, not just notes.
+              </p>
             </div>
-            
+
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
-                <a href="Tourist_Automn.html" class="text-reset">  Explore</a>
+                <a href="Tourist_Automn.html" class="text-reset"> Explore</a>
               </p>
               <p>
                 <a href="travelAutumn.html" class="text-reset">Travel</a>
@@ -287,9 +312,7 @@
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p>
-                <i class="fas fa-home me-3 text-secondary"></i> London 
-              </p>
+              <p><i class="fas fa-home me-3 text-secondary"></i> London</p>
               <p>
                 <i class="fas fa-envelope me-3 text-secondary"></i>
                 SBH@gmail.com
@@ -306,10 +329,20 @@
       </section>
     </footer>
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"
-  ></script>
-  <script src="app.js"></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <script>
+      function validate() {
+        var email = document.getElementById("email").value;
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        if (!emailPattern.test(email)) {
+          alert("Please enter a valid email address.");
+          return false;
+        }
+      }
+    </script>
   </body>
 </html>

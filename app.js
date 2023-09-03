@@ -51,3 +51,12 @@ async function newFunction() {
   card(getNumValue, getPlaceValue);
 }
 newFunction();
+
+function validate() {
+  var email = document.getElementById("email").value;
+  var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  if (!emailPattern.test(email)) {
+    alert("Please enter a valid email address.");
+    return false;
+  }
+}
