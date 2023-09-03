@@ -281,22 +281,19 @@
           <div class="page-mat">
             <p class="page-header">Drop us a line</p>
             <p class="page-line">
-              Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas
-              erat dignissim. Sed quis rutrum tellus, sit amet viverra felis.
-              Cras sagittis sem sit amet urna feugiat rutrum. Nam nulla ipsum,
-              venenatis malesuada felis quis, ultricies convallis neque.
-              Pellentesque tristique fringilla tempus.
+                Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas
+                erat dignissim. Sed quis rutrum tellus, sit amet viverra felis.
+                Cras sagittis sem sit amet urna feugiat rutrum. Nam nulla ipsum,
+                venenatis malesuada felis quis, ultricies convallis neque.
+                Pellentesque tristique fringilla tempus.
             </p>
-            <input class="name" type="name" placeholder="Name" /><br />
-            <input
-              class="email1"
-              type="email"
-              placeholder="Email Address"
-            /><br />
-            <textarea class="mess" type="text" cols="16" rows="15"> </textarea>
-            <br />
-            <button>Send Now</button>
-          </div>
+            <form id="contact-form" onsubmit="return validateForm()">
+                <input class="name" type="text" id="name" placeholder="Name" /><br />
+                <input class="email1" type="email" id="email" placeholder="Email Address" /><br />
+                <textarea class="mess" id="message" cols="16" rows="15"></textarea><br />
+                <button type="submit">Send Now</button>
+            </form>
+        </div>
           <div class="page-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14471.191900974394!2d67.044948!3d24.9389513!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f3daae54d55%3A0x5dae2a3a4b71f12a!2sAptech%20Learning%20North%20Nazimabad%20II%20Center!5e0!3m2!1sen!2s!4v1683400543211!5m2!1sen!2s"
