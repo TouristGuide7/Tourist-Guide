@@ -87,19 +87,16 @@ function validateForm() {
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
 
-  // Check if name is empty
   if (name.trim() === "") {
       alert("Please enter your name.");
       return false;
   }
 
-  // Check if email is empty
   if (email.trim() === "") {
       alert("Please enter your email address.");
       return false;
   }
 
-  // Regular expression for email validation
   var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
   if (!emailPattern.test(email)) {
       alert("Please enter a valid email address.");

@@ -63,7 +63,7 @@
         {
           "continent": "Oceania",
           "imgUrl": "https://res.cloudinary.com/simpleview/image/upload/v1687399198/clients/queenstownnz/Queenstown_Winter_Aerial_from_Bob_s_Peak_33c9a5c3-f4d1-4264-b1a7-ee4195064969.jpg",
-          "cardImg":"",
+          "cardImg":"https://images.unsplash.com/photo-1593755673003-8ca8dbf906c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
           "country": "New Zealand",
           "place": "Queenstown",
           "culture": "Kiwi",
